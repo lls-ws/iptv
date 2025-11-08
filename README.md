@@ -1,5 +1,5 @@
 # IPTV
-Scripts to create personal IPTV files from free Brazil channels.
+Scripts to create personal IPTV files from Brazil free channels.
 
 ## Free Channels
 - [PlutoTV](#plutotv)
