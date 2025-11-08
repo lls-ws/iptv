@@ -8,11 +8,12 @@ Scripts to create personal iptv files from free brazil channels.
 - [RuntimeTV](#runtimetv)
 
 ## PlutoTV
-### Open terminal and paste in order these following commands:
+#### Open terminal and paste in order these following commands:
+#### Download repository:
 ```sh
 git clone https://github.com/lls-ws/iptv.git && cd iptv
 ```
-### Install the dependencies:
+#### Install dependencies:
 ```sh
 bash iptv/pluto.sh install
 ```
