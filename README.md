@@ -2,35 +2,45 @@
 Scripts to create personal IPTV files from free Brazil channels.
 
 ## Free Channels
-
 - [PlutoTV](#plutotv)
-  - [Install](###install-depedencies)
 - [SamsungTV](#samsungtv)
 - [RuntimeTV](#runtimetv)
 
-## PlutoTV
-#### Open terminal and paste in order these following commands:
-#### Download repository:
+## Download repository
+#### Open terminal and paste these following commands:
 ```sh
 git clone https://github.com/lls-ws/iptv.git && cd iptv
 ```
-#### Install dependencies
+
+## PlutoTV
+  - [Install](#install-plutotv-depedencies)
+  - [Download](#download-plutotv-playlist)
+  - [Favorites](#edit-favorites-plutotv-channels)
+  - [Create](#create-favorites-plutotv-playlist)
+  - [Show](#show-plutotv-files)
+  - [Clean](#clean-plutotv-playlist)
+
+#### Install PlutoTV Dependencies
 ```sh
 bash iptv/pluto.sh install
 ```
-#### Download PlutoTV List:
+#### Download PlutoTV Playlist
 ```sh
 bash iptv/pluto.sh download
 ```
-#### Edit Favorites PlutoTV List
+#### Edit Favorites PlutoTV Channels
 ```sh
 bash iptv/pluto.sh favorites
 ```
-#### Create Favorites PlutoTV List
+#### Create Favorites PlutoTV Playlist
 ```sh
 bash iptv/pluto.sh create
 ```
-#### Clean Favorites PlutoTV List
+#### Show PlutoTV Files
+```sh
+bash iptv/pluto.sh show
+```
+#### Clean PlutoTV Playlists
 ```sh
 bash iptv/pluto.sh clean
 ```
