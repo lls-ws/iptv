@@ -4,17 +4,16 @@ Scripts to create personal IPTV files from Brazil free channels.
 Based on https://github.com/evoactivity/PlutoIPTV
 
 ## Playists
-PlutoTV: https://lls-ws.github.io/iptv/PlutoTV_br.m3u
-
-Personal: https://lls-ws.github.io/iptv/LLS_TV_br.m3u
-
-Personal PlutoTV:
+- PlutoTV: https://lls-ws.github.io/iptv/PlutoTV_br.m3u
+- Personal: https://lls-ws.github.io/iptv/LLS_TV_br.m3u
+- Personal PlutoTV:
 https://lls-ws.github.io/iptv/LLS_PlutoTV_br.m3u
 
 ## Free Channels
 - [PlutoTV](#plutotv)
 - [SamsungTV](#samsungtv)
 - [RuntimeTV](#runtimetv)
+- [Extra](#extra)
 
 ## Download repository
 #### Open terminal and paste these following commands:
@@ -54,3 +53,9 @@ bash pluto.sh show
 ```sh
 bash pluto.sh clean
 ```
+
+## Extra
+#### Radio IPTV
+
+- 89FM: https://www.radios.com.br/play/playlist/31289/listen-radio.m3u
+- UturnRadio: https://www.uturnradio.com/media/classic_rock.m3u
