@@ -1,7 +1,6 @@
 # IPTV
 Scripts to create personal IPTV files from Brazil free channels.
 
-Based on https://github.com/TylerB260/PlutoXML
 Based on https://github.com/evoactivity/PlutoIPTV
 
 ## Free Channels
