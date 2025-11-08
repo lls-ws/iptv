@@ -4,7 +4,7 @@ Scripts to create personal IPTV files from free Brazil channels.
 ## Free Channels
 
 - [PlutoTV](#plutotv)
-  - [Install](#install_depedencies)
+  - [Install](#install-depedencies)
 - [SamsungTV](#samsungtv)
 - [RuntimeTV](#runtimetv)
 
