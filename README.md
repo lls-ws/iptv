@@ -18,7 +18,7 @@ git clone https://github.com/lls-ws/iptv.git && cd iptv
   - [Favorites](#edit-favorites-plutotv-channels)
   - [Create](#create-favorites-plutotv-playlist)
   - [Show](#show-plutotv-files)
-  - [Clean](#clean-plutotv-playlist)
+  - [Clean](#clean-plutotv-playlists)
 
 #### Install PlutoTV Dependencies
 ```sh
