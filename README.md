@@ -13,7 +13,7 @@ git clone https://github.com/lls-ws/iptv.git && cd iptv
 ```
 
 ## PlutoTV
-  - [Install](#install-plutotv-depedencies)
+  - [Install](#install-plutotv-dependencies)
   - [Download](#download-plutotv-playlist)
   - [Favorites](#edit-favorites-plutotv-channels)
   - [Create](#create-favorites-plutotv-playlist)
