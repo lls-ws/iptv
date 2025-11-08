@@ -55,7 +55,11 @@ bash pluto.sh clean
 ```
 
 ## Extra
-#### Radio IPTV
+#### Best Playlists
+- Free TV: https://github.com/Free-TV/IPTV
+- IPTV-org https://github.com/iptv-org/iptv
+
+#### Radio Playlists
 
 - 89FM: https://www.radios.com.br/play/playlist/31289/listen-radio.m3u
 - UturnRadio: https://www.uturnradio.com/media/classic_rock.m3u
