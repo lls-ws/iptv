@@ -1,5 +1,5 @@
 # IPTV
-Scripts to create personal iptv files from free brazil channels.
+Scripts to create personal IPTV files from free Brazil channels.
 
 ## Free Channels
 
