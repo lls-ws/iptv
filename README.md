@@ -22,25 +22,25 @@ git clone https://github.com/lls-ws/iptv.git && cd iptv
 
 #### Install PlutoTV Dependencies
 ```sh
-bash iptv/pluto.sh install
+bash pluto.sh install
 ```
 #### Download PlutoTV Playlist
 ```sh
-bash iptv/pluto.sh download
+bash pluto.sh download
 ```
 #### Edit Favorites PlutoTV Channels
 ```sh
-bash iptv/pluto.sh favorites
+bash pluto.sh favorites
 ```
 #### Create Favorites PlutoTV Playlist
 ```sh
-bash iptv/pluto.sh create
+bash pluto.sh create
 ```
 #### Show PlutoTV Files
 ```sh
-bash iptv/pluto.sh show
+bash pluto.sh show
 ```
 #### Clean PlutoTV Playlists
 ```sh
-bash iptv/pluto.sh clean
+bash pluto.sh clean
 ```
