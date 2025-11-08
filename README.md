@@ -3,10 +3,16 @@ Scripts to create personal IPTV files from Brazil free channels.
 
 Based on https://github.com/evoactivity/PlutoIPTV
 
-To use it set IPTV player to the links 
+## Playists
+PlutoTV: https://lls-ws.github.io/iptv/PlutoTV_br.m3u
+
+Personal: https://lls-ws.github.io/iptv/LLS_TV_br.m3u
+
+Personal PlutoTV:
+https://lls-ws.github.io/iptv/LLS_PlutoTV_br.m3u
 
 ## Free Channels
-- [PlutoTV](#plutotv) 
+- [PlutoTV](#plutotv)
 - [SamsungTV](#samsungtv)
 - [RuntimeTV](#runtimetv)
 
