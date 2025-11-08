@@ -4,8 +4,10 @@
 # Autor: Leandro Luiz
 # email: lls.homeoffice@gmail.com
 
+TEXT_EDITOR="featherpad"
+
 SERVER_NAME=$(basename ${0%.*})
-SERVER_DIR="iptv/${SERVER_NAME}"
+SERVER_DIR="${SERVER_NAME}"
 
 FAVORITES_FILE="${SERVER_DIR}/pluto-favorites"
 FAVORITES_DIR="${SERVER_DIR}/$(echo $(basename ${FAVORITES_FILE}) | cut -d '-' -f 2)"
@@ -23,6 +25,8 @@ FAVORITES_ARRAY=(
 
 pluto_install()
 {
+	
+	echo "Installing nodejs npm packages..."
 	
 	sudo apt -y install nodejs npm
 	
@@ -53,7 +57,7 @@ pluto_favorites()
 	if [ ! -f ${PLAYLIST_ALL_IPTV} ]; then
 		
 		echo "File ${PLAYLIST_ALL_IPTV} not found!"
-		echo "Run: bash $0 get"
+		echo "Run: bash $0 download"
 		exit 1
 		
 	fi
@@ -157,9 +161,17 @@ pluto_clean()
 pluto_show()
 {
 	
-	echo "Showing ${SERVER_NAME} files:"
+	echo "Showing ${SERVER_DIR} files:"
 	
-	ls -al ${SERVER_DIR}/*
+	if [ -n "$(ls ${SERVER_DIR}/* 2>/dev/null)" ]; then
+	
+		ls -al ${SERVER_DIR}/*
+		
+	else
+	
+		ls -al
+	
+	fi
 	
 }
 
@@ -170,7 +182,7 @@ pluto_edit()
 	
 	if [ -n "$(ls ${FAVORITES_DIR}/*.txt 2>/dev/null)" ]; then
 	
-		geany $(realpath ${FAVORITES_DIR})/*.txt
+		${TEXT_EDITOR} $(realpath ${FAVORITES_DIR})/*.txt
 		
 	else
 	
@@ -185,7 +197,7 @@ case "$1" in
 	install)
 		pluto_install
 		;;
-	downlad)
+	download)
 		pluto_download
 		pluto_show
 		;;
