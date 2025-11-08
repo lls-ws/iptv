@@ -1,0 +1,39 @@
+#!/bin/sh
+# Script to Check if repository exist
+#
+# Autor: Leandro Luiz
+# email: lls.homeoffice@gmail.com
+
+repository_check()
+{
+
+	REPOSITORY_NAME="$1"
+	
+	REPOSITORY_DIR=~/${REPOSITORY_NAME}
+	
+	echo -e "\nCheck repository ${REPOSITORY_NAME}"
+	
+	if [ ! -d ${REPOSITORY_DIR} ]; then
+	
+		echo "Repository ${REPOSITORY_NAME} not found!"
+		
+		(cd ~; git clone https://github.com/lls-ws/${REPOSITORY_NAME}.git; cd -)
+	
+	else
+	
+		echo "Repository ${REPOSITORY_NAME} found!"
+	
+	fi
+	
+}
+
+repository_update()
+{
+	
+	REPOSITORY_NAME="$1"
+	
+	echo "Update repository ${REPOSITORY_NAME}"
+	
+	(cd ~/${REPOSITORY_NAME}; sudo ~/cloud/bin/git_conf.sh remote ${REPOSITORY_NAME}; cd -)
+	
+}

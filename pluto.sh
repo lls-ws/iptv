@@ -4,6 +4,9 @@
 # Autor: Leandro Luiz
 # email: lls.homeoffice@gmail.com
 
+PATH=.:$(dirname $0):$PATH
+. repository	|| exit 1
+
 TEXT_EDITOR="featherpad"
 
 SERVER_NAME=$(basename ${0%.*})
@@ -37,6 +40,12 @@ pluto_install()
 
 pluto_download()
 {
+
+	if [ ! -d ${SERVER_DIR} ]; then
+	
+		mkdir -v ${SERVER_DIR}
+	
+	fi
 
 	echo "Get ${SERVER_NAME} iptv list..."
 	(cd ${SERVER_DIR}; npx pluto-iptv; cd -)
@@ -152,7 +161,7 @@ pluto_clean()
 	echo "Cleanning ${SERVER_NAME} iptv list..."
 	
 	rm -fv ${PLAYLIST_LLS} ${PLAYLIST_ALL} ${PLAYLIST_ALL_IPTV}
-	rm -rfv ${FAVORITES_FILE} ${FAVORITES_DIR}
+	rm -rfv ${FAVORITES_FILE} ${FAVORITES_DIR} ${SERVER_DIR}
 	
 	pluto_show
 	
@@ -193,6 +202,33 @@ pluto_edit()
 	
 }
 
+pluto_upload()
+{
+	
+	echo "Uploading $(basename ${PLAYLIST_LLS})"
+	
+	repository_check "cloud"
+	
+	repository_check "lls-ws.github.io"
+	
+	echo -e "\nCopying $(basename ${PLAYLIST_LLS}) to ${REPOSITORY_DIR}"
+	
+	IPTV_DIR="${REPOSITORY_DIR}/iptv"
+	
+	if [ ! -d ${IPTV_DIR} ]; then
+	
+		mkdir -v ${IPTV_DIR}
+	
+	fi
+	
+	cp -fv ${PLAYLIST_LLS} ${PLAYLIST_ALL_IPTV} ${IPTV_DIR}
+	
+	ls -al ${IPTV_DIR}
+	
+	repository_update "lls-ws.github.io"
+	
+}
+
 case "$1" in
 	install)
 		pluto_install
@@ -213,6 +249,9 @@ case "$1" in
 	clean)
 		pluto_clean
 		;;
+	upload)
+		pluto_upload
+		;;
 	all)
 		pluto_install
 		pluto_download
@@ -220,7 +259,7 @@ case "$1" in
 		pluto_create
 		;;
 	*)
-		echo "Use: $0 {all|install|download|favorites|show|create|clean}"
+		echo "Use: $0 {all|install|download|favorites|show|create|clean|upload}"
 		exit 1
 		;;
 esac
