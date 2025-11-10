@@ -54,6 +54,12 @@ bash pluto.sh show
 bash pluto.sh clean
 ```
 
+## SamsungTV
+Under construction...
+
+## RuntimeTV
+Under construction...
+
 ## Extra
 #### Best Playlists
 - Free TV: https://github.com/Free-TV/IPTV
