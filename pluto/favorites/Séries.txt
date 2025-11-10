@@ -1,5 +1,5 @@
 # Séries
-pluto-tv-star-trek-ptv1
+#pluto-tv-star-trek-ptv1
 #bet-pluto-tv-ptv1
 #kenan-and-kel
 #nick-teen-ptv1
@@ -9,9 +9,9 @@ csi-miami-ptv4
 ncis-ptv1
 pluto-tv-series-acao
 pluto-tv-series-criminais
-clube-do-terror
+#clube-do-terror
 #rookie-blue-ptv1
-pluto-tv-series-comedia
+#pluto-tv-series-comedia
 #pluto-tv-series-drama-ptv1
 #z-nation-ptv1
 #the-walking-dead-ptv1

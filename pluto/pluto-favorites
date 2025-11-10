@@ -22,23 +22,23 @@ pluto-tv-aliens
 pluto-tv-cine-sucessos
 pluto-tv-filmes-acao
 pluto-tv-cine-comedia-1
-pluto-tv-cine-drama-1
-pluto-tv-cine-terror-1
+#pluto-tv-cine-drama-1
+#pluto-tv-cine-terror-1
 pluto-tv-filmes-suspense
-pluto-tv-cine-familia-ptv1
-pluto-tv-cine-romance-ptv1
-pluto-tv-filmes-nacionais
+#pluto-tv-cine-familia-ptv1
+#pluto-tv-cine-romance-ptv1
+#pluto-tv-filmes-nacionais
 ficcao-cientifica
 pluto-tv-cine-classicos
-pluto-tv-cine-inspiracao
+#pluto-tv-cine-inspiracao
 pluto-tv-adrenalina-freezone
-pluto-tv-cine-comedia-romantica
+#pluto-tv-cine-comedia-romantica
 runtime
 plutotv-filmelier
 pluto-tv-cine-crime
-pluto-tv-bang-bang
+#pluto-tv-bang-bang
 pluto-tv-netmovies
-pluto-tv-terror-trash
+#pluto-tv-terror-trash
 pluto-tv-filmes-aventura
 pluto-tv-filmes-de-luta
 # Notícias
@@ -49,7 +49,7 @@ jovem-pan-news
 #bmandc-news
 #times-brasil-cnbc
 # Séries
-pluto-tv-star-trek-ptv1
+#pluto-tv-star-trek-ptv1
 #bet-pluto-tv-ptv1
 #kenan-and-kel
 #nick-teen-ptv1
@@ -59,9 +59,9 @@ csi-miami-ptv4
 ncis-ptv1
 pluto-tv-series-acao
 pluto-tv-series-criminais
-clube-do-terror
+#clube-do-terror
 #rookie-blue-ptv1
-pluto-tv-series-comedia
+#pluto-tv-series-comedia
 #pluto-tv-series-drama-ptv1
 #z-nation-ptv1
 #the-walking-dead-ptv1
