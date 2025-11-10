@@ -4,9 +4,6 @@
 # Autor: Leandro Luiz
 # email: lls.homeoffice@gmail.com
 
-PATH=.:$(dirname $0):$PATH
-. repository	|| exit 1
-
 TEXT_EDITOR="featherpad"
 
 SERVER_NAME=$(basename ${0%.*})
@@ -18,6 +15,10 @@ FAVORITES_DIR="${SERVER_DIR}/$(echo $(basename ${FAVORITES_FILE}) | cut -d '-' -
 PLAYLIST_ALL_IPTV="${SERVER_DIR}/PlutoTV_br.m3u"
 PLAYLIST_LLS="${SERVER_DIR}/LLS_$(basename ${PLAYLIST_ALL_IPTV})"
 PLAYLIST_ALL="${SERVER_DIR}/playlist.m3u8"
+
+REPOSITORY_NAME="lls-ws.github.io"
+REPOSITORY_DIR=~/${REPOSITORY_NAME}
+IPTV_DIR="${REPOSITORY_DIR}/iptv"
 
 FAVORITES_ARRAY=(
 	"Filmes"
@@ -207,13 +208,9 @@ pluto_upload()
 	
 	echo "Uploading $(basename ${PLAYLIST_LLS})"
 	
-	repository_check "cloud"
-	
-	repository_check "lls-ws.github.io"
+	sudo bash git_download.sh ${REPOSITORY_NAME}
 	
 	echo -e "\nCopying $(basename ${PLAYLIST_LLS}) to ${REPOSITORY_DIR}"
-	
-	IPTV_DIR="${REPOSITORY_DIR}/iptv"
 	
 	if [ ! -d ${IPTV_DIR} ]; then
 	
@@ -225,7 +222,7 @@ pluto_upload()
 	
 	ls -al ${IPTV_DIR}
 	
-	repository_update "lls-ws.github.io"
+	sudo bash git_remote.sh ${REPOSITORY_NAME}
 	
 }
 
