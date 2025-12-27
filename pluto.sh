@@ -4,29 +4,6 @@
 # Autor: Leandro Luiz
 # email: lls.homeoffice@gmail.com
 
-TEXT_EDITOR="featherpad"
-
-SERVER_NAME=$(basename ${0%.*})
-SERVER_DIR="${SERVER_NAME}"
-
-FAVORITES_FILE="${SERVER_DIR}/pluto-favorites"
-FAVORITES_DIR="${SERVER_DIR}/$(echo $(basename ${FAVORITES_FILE}) | cut -d '-' -f 2)"
-
-PLAYLIST_ALL_IPTV="${SERVER_DIR}/PlutoTV_br.m3u"
-PLAYLIST_LLS="${SERVER_DIR}/LLS_$(basename ${PLAYLIST_ALL_IPTV})"
-PLAYLIST_ALL="${SERVER_DIR}/playlist.m3u8"
-
-REPOSITORY_NAME="lls-ws.github.io"
-REPOSITORY_DIR=~/${REPOSITORY_NAME}
-IPTV_DIR="${REPOSITORY_DIR}/iptv"
-
-FAVORITES_ARRAY=(
-	"Filmes"
-	"Séries"
-	"Notícias"
-	"Curiosidades"
-)
-
 pluto_install()
 {
 	
@@ -225,38 +202,3 @@ pluto_upload()
 	sudo bash git_remote.sh ${REPOSITORY_NAME}
 	
 }
-
-case "$1" in
-	install)
-		pluto_install
-		;;
-	download)
-		pluto_download
-		pluto_show
-		;;
-	favorites)
-		pluto_favorites
-		;;
-	show)
-		pluto_show
-		;;
-	create)
-		pluto_create
-		;;
-	clean)
-		pluto_clean
-		;;
-	upload)
-		pluto_upload
-		;;
-	all)
-		pluto_install
-		pluto_download
-		pluto_favorites
-		pluto_create
-		;;
-	*)
-		echo "Use: $0 {all|install|download|favorites|show|create|clean|upload}"
-		exit 1
-		;;
-esac
