@@ -21,7 +21,7 @@ pluto-tv-aliens
 # Filmes
 pluto-tv-cine-sucessos
 pluto-tv-filmes-acao
-pluto-tv-cine-comedia-1
+#pluto-tv-cine-comedia-1
 #pluto-tv-cine-drama-1
 #pluto-tv-cine-terror-1
 pluto-tv-filmes-suspense
@@ -29,7 +29,7 @@ pluto-tv-filmes-suspense
 #pluto-tv-cine-romance-ptv1
 #pluto-tv-filmes-nacionais
 ficcao-cientifica
-pluto-tv-cine-classicos
+#pluto-tv-cine-classicos
 #pluto-tv-cine-inspiracao
 pluto-tv-adrenalina-freezone
 #pluto-tv-cine-comedia-romantica
@@ -40,10 +40,10 @@ pluto-tv-cine-crime
 pluto-tv-netmovies
 #pluto-tv-terror-trash
 pluto-tv-filmes-aventura
-pluto-tv-filmes-de-luta
+#pluto-tv-filmes-de-luta
 # Notícias
 #pluto-tv-record-news
-#euronews-portugues
+euronews-portugues
 #cbs-news-ptv2
 jovem-pan-news
 #bmandc-news
@@ -54,17 +54,17 @@ jovem-pan-news
 #kenan-and-kel
 #nick-teen-ptv1
 #nickelodeon-icarly-ptv1
-pluto-tv-series-sci-fi
-csi-miami-ptv4
-ncis-ptv1
-pluto-tv-series-acao
-pluto-tv-series-criminais
+#pluto-tv-series-sci-fi
+#csi-miami-ptv4
+#ncis-ptv1
+#pluto-tv-series-acao
+#pluto-tv-series-criminais
 #clube-do-terror
 #rookie-blue-ptv1
 #pluto-tv-series-comedia
 #pluto-tv-series-drama-ptv1
 #z-nation-ptv1
 #the-walking-dead-ptv1
-relic-hunter-ptv1
-charmed-jovens-bruxas
+#relic-hunter-ptv1
+#charmed-jovens-bruxas
 #numbers
