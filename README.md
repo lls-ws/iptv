@@ -31,27 +31,27 @@ git clone https://github.com/lls-ws/iptv.git && cd iptv
 
 #### Install PlutoTV Dependencies
 ```sh
-bash pluto.sh install
+bash iptv.sh pluto install
 ```
 #### Download PlutoTV Playlist
 ```sh
-bash pluto.sh download
+bash iptv.sh pluto download
 ```
 #### Edit Favorites PlutoTV Channels
 ```sh
-bash pluto.sh favorites
+bash iptv.sh pluto favorites
 ```
 #### Create Favorites PlutoTV Playlist
 ```sh
-bash pluto.sh create
+bash iptv.sh pluto create
 ```
 #### Show PlutoTV Files
 ```sh
-bash pluto.sh show
+bash iptv.sh pluto show
 ```
 #### Clean PlutoTV Playlists
 ```sh
-bash pluto.sh clean
+bash iptv.sh pluto clean
 ```
 
 ## SamsungTV
