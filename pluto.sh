@@ -19,12 +19,10 @@ pluto_install()
 pluto_download()
 {
 
-	if [ ! -d ${SERVER_DIR} ]; then
+	pluto_install
 	
-		mkdir -v ${SERVER_DIR}
+	check_dir ${SERVER_DIR}
 	
-	fi
-
 	echo "Get ${SERVER_NAME} iptv list..."
 	(cd ${SERVER_DIR}; npx pluto-iptv; cd -)
 	
@@ -41,29 +39,24 @@ pluto_download()
 pluto_favorites()
 {
 	
-	if [ ! -f ${PLAYLIST_ALL_IPTV} ]; then
-		
-		echo "File ${PLAYLIST_ALL_IPTV} not found!"
-		echo "Run: bash $0 download"
-		exit 1
-		
-	fi
+	playlist_check
 	
-	if [ ! -d ${FAVORITES_DIR} ]; then
+	FAVORITES_ARRAY=(
+		"Filmes"
+		"Séries"
+		"Notícias"
+		"Curiosidades"
+	)
 	
-		mkdir -pv ${FAVORITES_DIR}
+	check_dir ${FAVORITES_DIR}
 		
-		for FAVORITE_NAME in "${FAVORITES_ARRAY[@]}"
-		do
-			
-			pluto_favorite
-			
-		done
+	for FAVORITE_NAME in "${FAVORITES_ARRAY[@]}"
+	do
 		
-	fi
-	
-	pluto_show
-	
+		pluto_favorite
+		
+	done
+		
 	pluto_edit
 	
 }
@@ -111,7 +104,7 @@ pluto_create()
 	
 	pluto_epg
 	
-	pluto_show
+	iptv_create
 	
 }
 
@@ -133,35 +126,6 @@ pluto_epg()
 	
 }
 
-pluto_clean()
-{
-	
-	echo "Cleanning ${SERVER_NAME} iptv list..."
-	
-	rm -fv ${PLAYLIST_LLS} ${PLAYLIST_ALL} ${PLAYLIST_ALL_IPTV}
-	rm -rfv ${FAVORITES_FILE} ${FAVORITES_DIR} ${SERVER_DIR}
-	
-	pluto_show
-	
-}
-
-pluto_show()
-{
-	
-	echo "Showing ${SERVER_DIR} files:"
-	
-	if [ -n "$(ls ${SERVER_DIR}/* 2>/dev/null)" ]; then
-	
-		ls -al ${SERVER_DIR}/*
-		
-	else
-	
-		ls -al
-	
-	fi
-	
-}
-
 pluto_edit()
 {
 	
@@ -177,28 +141,5 @@ pluto_edit()
 		exit 1
 		
 	fi
-	
-}
-
-pluto_upload()
-{
-	
-	echo "Uploading $(basename ${PLAYLIST_LLS})"
-	
-	sudo bash git_download.sh ${REPOSITORY_NAME}
-	
-	echo -e "\nCopying $(basename ${PLAYLIST_LLS}) to ${REPOSITORY_DIR}"
-	
-	if [ ! -d ${IPTV_DIR} ]; then
-	
-		mkdir -v ${IPTV_DIR}
-	
-	fi
-	
-	cp -fv ${PLAYLIST_LLS} ${PLAYLIST_ALL_IPTV} ${IPTV_DIR}
-	
-	ls -al ${IPTV_DIR}
-	
-	sudo bash git_remote.sh ${REPOSITORY_NAME}
 	
 }

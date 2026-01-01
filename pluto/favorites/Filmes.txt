@@ -13,7 +13,7 @@ ficcao-cientifica
 #pluto-tv-cine-inspiracao
 pluto-tv-adrenalina-freezone
 #pluto-tv-cine-comedia-romantica
-runtime
+#runtime
 plutotv-filmelier
 pluto-tv-cine-crime
 #pluto-tv-bang-bang
