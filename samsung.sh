@@ -83,7 +83,7 @@ samsung_group()
 	
 	sed -i 's/^\(#EXTINF:-1,\)[0-9]*[[:space:]]/\1/g' ${PLAYLIST_LLS}
 	
-	sed -i 's/EXTINF:-1/EXTINF:-1 group-title="Filmes/g' ${PLAYLIST_LLS}
+	sed -i 's/EXTINF:-1/EXTINF:-1 group-title="Filmes"/g' ${PLAYLIST_LLS}
 	
 	sed -i 's/(BR)//g' ${PLAYLIST_LLS}
 	
