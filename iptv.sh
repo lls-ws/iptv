@@ -11,7 +11,7 @@ check_dir()
 	
 	if [ ! -d ${DIR_CHECK} ]; then
 	
-		mkdir -v ${DIR_CHECK}
+		mkdir -pv ${DIR_CHECK}
 	
 	fi
 	
@@ -45,21 +45,36 @@ playlist_check()
 	
 }
 
+favorites_check()
+{
+	
+	if [ -z "$(ls ${FAVORITES_DIR}/*.txt 2>/dev/null)" ]; then
+	
+		echo "Not found files on directoy ${FAVORITES_DIR}"
+		echo "Run: bash $0 $(basename ${FAVORITES_DIR})"
+		exit 1
+	
+	fi
+	
+	echo "Creating $(basename ${FAVORITES_FILE}) file..."
+	
+}
+
 iptv_download()
 {
 
-	check_dir "${LLS_DIR}"
+	check_dir ${SERVER_DIR}
 	
-	if [ ! -f ${PLAYLIST_IPTV} ]; then
+	if [ ! -f ${PLAYLIST_ALL_IPTV} ]; then
 	
 		echo "Getting ${IPTV_NAME}"
-		(cd ${LLS_DIR}; wget -O ${IPTV_NAME} ${IPTV_URL}; cd -)
+		(cd ${SERVER_DIR}; wget -O "${SERVER_NAME^}TV_br.m3u" ${PLAYLIST_URL}; cd -)
 	
 	fi 
 	
-	du -hsc ${PLAYLIST_IPTV}
+	du -hsc ${PLAYLIST_ALL_IPTV}
 	
-	ls -al ${PLAYLIST_IPTV}
+	ls -al ${PLAYLIST_ALL_IPTV}
 	
 }
 
@@ -76,19 +91,35 @@ iptv_set()
 	REPOSITORY_NAME="lls-ws.github.io"
 	REPOSITORY_DIR=~/${REPOSITORY_NAME}
 	
-	IPTV_NAME="iptvlegal.m3u"
 	IPTV_DIR="${REPOSITORY_DIR}/iptv"
-	IPTV_URL="https://tv.meuted.io/${IPTV_NAME}"
 	
 	FAVORITES_FILE="${SERVER_DIR}/${SERVER_NAME}-favorites"
 	FAVORITES_DIR="${SERVER_DIR}/$(echo $(basename ${FAVORITES_FILE}) | cut -d '-' -f 2)"
+	FAVORITE_FILE="${FAVORITES_DIR}/favorites.txt"
 	
+	PLAYLIST_NAME="playlist.m3u8"
 	PLAYLIST_ALL_IPTV="${SERVER_DIR}/${SERVER_NAME^}TV_br.m3u"
 	PLAYLIST_LLS="${SERVER_DIR}/LLS_$(basename ${PLAYLIST_ALL_IPTV})"
-	PLAYLIST_NAME="playlist.m3u8"
 	PLAYLIST_ALL="${SERVER_DIR}/${PLAYLIST_NAME}"
-	PLAYLIST_IPTV="${LLS_DIR}/${IPTV_NAME}"
 	PLAYLIST_LLS_TV="${LLS_DIR}/LLS_TV_br.m3u"
+	
+}
+
+iptv_edit()
+{
+	
+	echo "Editing ${FAVORITES_DIR} files..."
+	
+	if [ -n "$(ls ${FAVORITES_DIR}/*.txt 2>/dev/null)" ]; then
+	
+		${TEXT_EDITOR} $(realpath ${FAVORITES_DIR})/*.txt
+		
+	else
+	
+		echo "Not found ${FAVORITES_DIR} files!"
+		exit 1
+		
+	fi
 	
 }
 
@@ -106,6 +137,17 @@ iptv_show()
 		ls -al
 	
 	fi
+	
+}
+
+playlist_show()
+{
+	
+	echo -e "\nFile:"
+	
+	du -hsc ${1}
+	
+	ls -al ${1}
 	
 }
 
@@ -143,11 +185,15 @@ iptv_update()
 iptv_create()
 {
 	
+	echo -e "\nCreating $(basename ${PLAYLIST_LLS_TV}) file..."
+	
 	if [ -f ${PLAYLIST_LLS_TV} ]; then
 	
 		rm -fv ${PLAYLIST_LLS_TV}
 	
 	fi
+	
+	echo ""
 	
 	for SERVER_NAME in "${SERVERS_NAME[@]}"
 	do
@@ -164,10 +210,7 @@ iptv_create()
 		
 	done
 	
-	du -hsc ${PLAYLIST_LLS_TV}
-	
-	ls -al ${PLAYLIST_LLS_TV}
-	
+	playlist_show ${PLAYLIST_LLS_TV}
 }
 
 SERVERS_NAME=(

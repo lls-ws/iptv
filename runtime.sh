@@ -22,6 +22,8 @@ runtime_favorites()
 {
 	
 	iptv_check
+	
+	check_dir ${SERVER_DIR}
 
 	echo "Creating ${PLAYLIST_LLS} file..."
 	

@@ -57,7 +57,7 @@ pluto_favorites()
 		
 	done
 		
-	pluto_edit
+	iptv_edit
 	
 }
 
@@ -85,15 +85,8 @@ pluto_favorite()
 pluto_create()
 {
 	
-	if [ -z "$(ls ${FAVORITES_DIR}/*.txt 2>/dev/null)" ]; then
+	favorites_check
 	
-		echo "Not found files on directoy ${FAVORITES_DIR}"
-		echo "Run: bash $0 $(basename ${FAVORITES_DIR})"
-		exit 1
-	
-	fi
-	
-	echo "Creating $(basename ${FAVORITES_FILE}) file..."
 	echo "Join favorites channels..."
 	
 	cat ${FAVORITES_DIR}/*.txt > ${FAVORITES_FILE}
@@ -121,24 +114,6 @@ pluto_epg()
 		cat ${PLAYLIST_LLS} | head -1
 		
 		echo "File ${PLAYLIST_LLS} created!"
-		
-	fi
-	
-}
-
-pluto_edit()
-{
-	
-	echo "Editing ${FAVORITES_DIR} files..."
-	
-	if [ -n "$(ls ${FAVORITES_DIR}/*.txt 2>/dev/null)" ]; then
-	
-		${TEXT_EDITOR} $(realpath ${FAVORITES_DIR})/*.txt
-		
-	else
-	
-		echo "Not found ${FAVORITES_DIR} files!"
-		exit 1
 		
 	fi
 	
