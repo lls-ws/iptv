@@ -1,0 +1,214 @@
+## Remove comment to add channel
+#126 Veja+
+#127 Jovem Pan
+#129 Bloomberg TV+
+#130 SBT News
+#132 CNN Brasil
+#133 CNN MONEY
+#134 Times Brasil licenciado exclusivo CNBC
+#137 TIME
+#138 Pluto TV Record News
+#140 Euronews Português
+#141 USA TODAY News
+#142 CBS News
+#144 Pluto TV Canal UOL
+#150 New Brasil
+#152 Canal Rural
+#153 Brintv
+#155 TV Aparecida
+#159 Malhacao
+#160 The Walking Dead by AMC
+#161 SONY ONE EMOÇÕES
+#164 Misty
+#165 ROMCOM K-Drama
+#166 PlayTV
+#191 Porta TV
+#192 DiaTV
+#194 TV Flow
+#195 Manual do Mundo
+#198 Caras TV
+#206 Canal Like+
+#230 Receitas FAST
+#231 Sabor&Arte 2
+#232 Tastemade
+#236 Homeful
+#237 NEW KFOOD
+#240 TRAVEL PLUS
+#243 FashionTV
+#245 This Old House
+#246 GoUSA TV
+#247 Trace Sport Stars
+#249 O Encantador de Cães
+#280 The Pet Collective
+#281 FailArmy
+#282 My Little Pet
+#283 Just for Laughs Gags
+#284 Comedy Central Pluto TV
+#285 We Play
+#301 Nature Time
+#302 WeatherSpy
+#306 Stingray Naturescape
+#307 Pluto TV Natureza
+#310 Smithsonian Channel Pluto TV
+#314 Tu Cine
+#315 FreeTV Drama
+#351 Sony One Shark Tank Brasil
+#352 MasterChef Brasil
+#355 Pluto TV Negócio Fechado
+#356 MTV Catfish
+#358 Pluto TV Animais
+#359 Pluto TV Vida Real
+#360 Pluto TV História
+#380 Pluto TV Investigação
+#381 Os Arquivos do FBI
+#382 Assombrações
+#383 Pluto TV Mistérios
+#406 MTV Pluto TV
+#407 MTV Com o Ex
+#408 MTV Are you the One?
+#409 MTV Jovens e Mães
+#410 MTV Shore
+#411 Pluto TV Retrô
+#412 Detetives Médicos
+#420 Weekly Idol
+#520 Pluto TV KFOOD
+#521 PBS Digital Studios
+#522 Gusto TV
+#523 NatureVision
+#524 Arirang
+#525 YTN
+#526 Newsmax2
+#527 Bloomberg Originals
+#528 SPEEDVISION
+#530 Chiquilines
+#531 FreeTV Saber Más
+#532 O Homem que veio do Céu
+#533 Pluto TV Turbo
+#534 BET Pluto TV
+#535 Pluto TV Minha Obsessão Favorita
+#537 NEW KPOP
+#538 This Is Happening
+#539 Television Concientes
+#540 Powernation
+#541 K-STAR GOLF
+#542 Refresh my Soul CBS
+#544 Pluto TV Esportes
+#545 Motorvision
+#600 DPA
+#602 Turma Da Monica
+#605 Dove
+#606 Super Onze
+#607 Babyfirst
+#608 Pluto TV Junior
+#609 Nick Jr. Club
+#610 O Reino Infantil
+#611 Pluto TV Kids
+#612 Bob Esponja Calça Quadrada
+#613 Nickelodeon Clássico
+#614 Baby Einstein
+#615 Oggy e as Baratas Tontas
+#616 Os Padrinhos Mágicos
+#617 Nickelodeon Toons
+#618 Beyblade
+#619 MojiTV
+#620 Cocobi
+#621 Kongsuni
+#622 TOBOT
+#623 Robocar POLI
+#624 BABY SHARK TV
+#630 Nickelodeon Teen
+#631 Kenan & Kel
+#632 Nickelodeon iCarly
+#650 Pluto TV Gaming por Ubisoft
+#652 Hunter x Hunter
+#654 Pluto TV Anime
+#655 Pluto TV Anime Ação
+#656 Naruto
+#657 Death Note
+#658 Tokusato
+#660 Boruto: Naruto Next Generations
+#665 Anime Onegai Drama
+#666 Anime Onegai Comedy
+#667 Anime Onegai SCI-FI
+#668 Anime Onegai Action
+#669 Anime Onegai Sports
+#800 GE TV
+#801 NSports
+#802 Desimpedidos
+#803 FIFA+
+#810 RACER BRASIL
+#811 GPTV
+#812 Acelerados
+#813 FUEL TV
+#818 People Are Awesome
+#819 K-Baseball TV
+#820 FitDance
+#821 PFL MMA
+#824 World Billiards TV
+#825 Billiard TV
+#826 WaypointTV
+#827 Nitro Circus
+#829 GLORY Kickboxing
+#837 YG TV
+#838 Mubeat
+#839 TRACE Brasil
+#840 FreeTV Banda
+#841 FreeTV Hits
+#843 MTV Biggest Pop
+#844 Qwest TV
+#845 Show Champion
+#846 @K-MUSIC
+#847 K-ASMR
+#848 essential;
+#853 Stingray Pop Adult
+#854 Stingray Hip Hop
+#855 Stingray Exitos del Momento
+#856 Stingray Hit List
+#857 Stingray Greatest Hits
+#858 Stingray Hot Country
+#859 Stingray Soul Storm
+#860 Stingray Remember the 80s
+#861 TikTok Radio Brasil
+#862 Qello Concerts by Stingray
+#863 ZenLIFE by Stingray
+#883 So I Married The Anti-Fan
+#884 My Secret Romance
+#885 Boys Over Flowers
+#886 Uncontrollably Fond
+#887 Where Stars Land
+889 FreeTV Acción
+890 FreeTV Sureño
+891 FreeTV Familia
+894 FreeTV Terror
+895 FreeTV Live
+897 Xumo Filmes Grátis
+898 NEW KMOVIES
+899 American Classics
+900 Dark Matter TV Brazil
+901 Pluto TV Cine Sucessos
+902 Pluto TV Filmes Ação
+903 Pluto TV Cine Comédia
+904 Pluto TV Cine Drama
+905 Pluto TV Cine Terror
+906 Filmes Suspense
+907 Pluto TV Filmes Nacionais
+908 Pluto TV Cine Clássicos
+909 Pluto TV Cine Romance
+910 Spark TV Luz E Amor
+911 Pluto TV Cine Comédia Romântica
+912 Pluto TV Ficção Científica
+913 Pluto TV Cine Família
+915 Runtime
+916 CinEspanto
+917 Runtime Crime
+918 Runtime Romance
+919 Runtime Familia
+920 Runtime Comédia
+921 Runtime Ação
+925 Filmelier TV Vida Real
+926 Esperanca
+927 Filmelier TV Paixão
+928 Filmelier Portuguese
+930 Adrenalina Pura TV POR
+931 Adrenalina Pura TV Halloween
+940 Sony One Cinema

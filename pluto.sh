@@ -57,7 +57,7 @@ pluto_favorites()
 		
 	done
 		
-	iptv_edit
+	pluto_edit
 	
 }
 
@@ -95,25 +95,25 @@ pluto_create()
 	
 	mv -v ${PLAYLIST_ALL} ${PLAYLIST_LLS}
 	
-	pluto_epg
+	sed -i '/#EXTM3U/d' ${PLAYLIST_LLS}
 	
 	iptv_create
 	
 }
 
-pluto_epg()
+pluto_edit()
 {
 	
-	EPG_URL="https:\/\/i.mjh.nz\/PlutoTV\/br.xml.gz"
+	echo "Editing ${FAVORITES_DIR} files..."
 	
-	if [ -f ${PLAYLIST_LLS} ]; then
+	if [ -n "$(ls ${FAVORITES_DIR}/*.txt 2>/dev/null)" ]; then
 	
-		echo "Add EPG url"
-		sed -i 's/#EXTM3U/#EXTM3U x-tvg-url="'${EPG_URL}'"/g' ${PLAYLIST_LLS}
+		${TEXT_EDITOR} $(realpath ${FAVORITES_DIR})/*.txt
 		
-		cat ${PLAYLIST_LLS} | head -1
-		
-		echo "File ${PLAYLIST_LLS} created!"
+	else
+	
+		echo "Not found ${FAVORITES_DIR} files!"
+		exit 1
 		
 	fi
 	

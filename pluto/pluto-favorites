@@ -21,31 +21,31 @@ pluto-tv-aliens
 # Filmes
 pluto-tv-cine-sucessos
 pluto-tv-filmes-acao
-#pluto-tv-cine-comedia-1
-#pluto-tv-cine-drama-1
-#pluto-tv-cine-terror-1
+pluto-tv-cine-comedia-1
+pluto-tv-cine-drama-1
+pluto-tv-cine-terror-1
 pluto-tv-filmes-suspense
-#pluto-tv-cine-familia-ptv1
-#pluto-tv-cine-romance-ptv1
-#pluto-tv-filmes-nacionais
+pluto-tv-cine-familia-ptv1
+pluto-tv-cine-romance-ptv1
+pluto-tv-filmes-nacionais
 ficcao-cientifica
-#pluto-tv-cine-classicos
-#pluto-tv-cine-inspiracao
-pluto-tv-adrenalina-freezone
-#pluto-tv-cine-comedia-romantica
+pluto-tv-cine-classicos
+pluto-tv-cine-inspiracao
+#pluto-tv-adrenalina-freezone
+pluto-tv-cine-comedia-romantica
 #runtime
-plutotv-filmelier
+#plutotv-filmelier
 pluto-tv-cine-crime
-#pluto-tv-bang-bang
+pluto-tv-bang-bang
 pluto-tv-netmovies
-#pluto-tv-terror-trash
+pluto-tv-terror-trash
 pluto-tv-filmes-aventura
-#pluto-tv-filmes-de-luta
+pluto-tv-filmes-de-luta
 # Notícias
 #pluto-tv-record-news
-euronews-portugues
+#euronews-portugues
 #cbs-news-ptv2
-jovem-pan-news
+#jovem-pan-news
 #bmandc-news
 #times-brasil-cnbc
 # Séries

@@ -1,7 +1,7 @@
 # Notícias
 #pluto-tv-record-news
-euronews-portugues
+#euronews-portugues
 #cbs-news-ptv2
-jovem-pan-news
+#jovem-pan-news
 #bmandc-news
 #times-brasil-cnbc

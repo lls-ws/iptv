@@ -105,24 +105,6 @@ iptv_set()
 	
 }
 
-iptv_edit()
-{
-	
-	echo "Editing ${FAVORITES_DIR} files..."
-	
-	if [ -n "$(ls ${FAVORITES_DIR}/*.txt 2>/dev/null)" ]; then
-	
-		${TEXT_EDITOR} $(realpath ${FAVORITES_DIR})/*.txt
-		
-	else
-	
-		echo "Not found ${FAVORITES_DIR} files!"
-		exit 1
-		
-	fi
-	
-}
-
 iptv_show()
 {
 	
@@ -185,7 +167,7 @@ iptv_update()
 iptv_create()
 {
 	
-	echo -e "\nCreating $(basename ${PLAYLIST_LLS_TV}) file..."
+	playlist_show ${PLAYLIST_LLS}
 	
 	if [ -f ${PLAYLIST_LLS_TV} ]; then
 	
@@ -193,7 +175,9 @@ iptv_create()
 	
 	fi
 	
-	echo ""
+	echo -e "\nCreating $(basename ${PLAYLIST_LLS_TV}) file..."
+	
+	iptv_epg
 	
 	for SERVER_NAME in "${SERVERS_NAME[@]}"
 	do
@@ -211,13 +195,93 @@ iptv_create()
 	done
 	
 	playlist_show ${PLAYLIST_LLS_TV}
+	
+}
+
+iptv_epg()
+{
+	
+	EPG_URL="https:\\\i.mjh.nz\PlutoTV\br.xml.gz"
+	
+	echo '#EXTM3U x-tvg-url="'${EPG_URL}'"' > ${PLAYLIST_LLS_TV}
+		
+	cat ${PLAYLIST_LLS_TV} | head -1
+		
+	echo -e "EPG for ${PLAYLIST_LLS_TV} created!\n"
+		
+}
+
+iptv_favorites()
+{
+	
+	iptv_check
+	
+	check_dir ${FAVORITES_DIR}
+
+	if [ ! -f ${FAVORITE_FILE} ]; then
+	
+		echo "Get Channel Names..."
+		
+		cat ${PLAYLIST_ALL_IPTV} | \
+		grep "EXTINF" | \
+		cut -d ',' -f 2 > ${FAVORITE_FILE}
+		
+		sed -i '1i # Remove comment to add channel' ${FAVORITE_FILE}
+		
+		sed -i "s/^/#/" ${FAVORITE_FILE}
+		
+	fi
+	
+	${TEXT_EDITOR} ${FAVORITE_FILE}
+	
+}
+
+favorites_create()
+{
+	
+	favorites_check
+	
+	echo "Get Favorites Channel Names..."
+	cat ${FAVORITE_FILE} | \
+	grep -v '#' | \
+	cut -d " " -f2- > ${FAVORITES_FILE}
+	
+	if [ -f ${PLAYLIST_LLS} ]; then
+	
+		rm -fv ${PLAYLIST_LLS}
+	
+	fi
+	
+	echo ""
+	
+	while IFS= read -r CHANNEL; do
+	  
+	  echo "Channel: ${CHANNEL}"
+	  cat ${PLAYLIST_ALL_IPTV} | grep -A1 "${CHANNEL}" >> ${PLAYLIST_LLS}
+	  
+	done < ${FAVORITES_FILE}
+	
+}
+
+favorites_group()
+{
+
+	echo -e "\nAdd group-title..."
+	
+	sed -i 's/EXTINF:-1/EXTINF:-1 group-title="Filmes"/g' ${PLAYLIST_LLS}
+	
+	echo "Removing End Line Spaces..."
+	
+	sed -i 's/^[[:space:]]*//;s/[[:space:]]*$//' ${PLAYLIST_LLS}
+	
 }
 
 SERVERS_NAME=(
-	"pluto"
-	"runtime"
 	"samsung"
+	"runtime"
+	"pluto"
 	"roku"
+	"lg"
 )
 
 if [[ " ${SERVERS_NAME[*]} " =~ " ${1} " ]]; then
