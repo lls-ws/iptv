@@ -185,19 +185,19 @@
 898 NEW KMOVIES
 899 American Classics
 900 Dark Matter TV Brazil
-901 Pluto TV Cine Sucessos
-902 Pluto TV Filmes Ação
-903 Pluto TV Cine Comédia
-904 Pluto TV Cine Drama
-905 Pluto TV Cine Terror
-906 Filmes Suspense
-907 Pluto TV Filmes Nacionais
-908 Pluto TV Cine Clássicos
-909 Pluto TV Cine Romance
+#901 Pluto TV Cine Sucessos
+#902 Pluto TV Filmes Ação
+#903 Pluto TV Cine Comédia
+#904 Pluto TV Cine Drama
+#905 Pluto TV Cine Terror
+#906 Filmes Suspense
+#907 Pluto TV Filmes Nacionais
+#908 Pluto TV Cine Clássicos
+#909 Pluto TV Cine Romance
 910 Spark TV Luz E Amor
-911 Pluto TV Cine Comédia Romântica
-912 Pluto TV Ficção Científica
-913 Pluto TV Cine Família
+#911 Pluto TV Cine Comédia Romântica
+#912 Pluto TV Ficção Científica
+#913 Pluto TV Cine Família
 915 Runtime
 916 CinEspanto
 917 Runtime Crime
