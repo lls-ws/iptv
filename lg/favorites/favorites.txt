@@ -183,7 +183,7 @@
 #895 FreeTV Live
 897 Xumo Filmes Grátis
 #898 NEW KMOVIES
-899 American Classics
+#899 American Classics
 900 Dark Matter TV Brazil
 #901 Pluto TV Cine Sucessos
 #902 Pluto TV Filmes Ação

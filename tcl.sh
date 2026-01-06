@@ -1,37 +1,37 @@
 #!/bin/sh
-# Script to Create Samsung IPTV Playlist File
+# Script to Create TCL IPTV Playlist File
 #
 # Autor: Leandro Luiz
 # email: lls.homeoffice@gmail.com
 
-samsung_download()
+tcl_download()
 {
 
-	PLAYLIST_URL="https://www.apsattv.com/ssungbra.m3u"
+	PLAYLIST_URL="https://www.apsattv.com/tclbr.m3u"
 	
 	iptv_download
 	
 }
 
-samsung_favorites()
+tcl_favorites()
 {
 	
 	iptv_favorites
 	
 }
 
-samsung_create()
+tcl_create()
 {
 	
 	favorites_create
 	
-	samsung_group
+	tcl_group
 	
 	iptv_create
 	
 }
 
-samsung_group()
+tcl_group()
 {
 
 	remove_channel_numbers
