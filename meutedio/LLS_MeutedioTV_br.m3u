@@ -1,0 +1,16 @@
+#EXTINF:-1 group-title="Filmes" tvg-id="61b790b985706b00072cb797" tvg-logo="https://images.pluto.tv/channels/61b790b985706b00072cb797/colorLogoPNG.png" ,Adrenalina Freezone | Pluto TV Brasil
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b790b985706b00072cb797/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown
+#EXTINF:-1 group-title="Filmes" tvg-id="61b790b985706b00072cb797" tvg-logo="https://images.pluto.tv/channels/61b790b985706b00072cb797/colorLogoPNG.png" ,Adrenalina Freezone | Pluto TV Brasil ~ link 2
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61b790b985706b00072cb797/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+#EXTINF:-1 group-title="Filmes" tvg-id="61b790b985706b00072cb797" tvg-logo="https://images.pluto.tv/channels/61b790b985706b00072cb797/colorLogoPNG.png" ,Adrenalina Freezone | Pluto TV Brasil ~ link 3
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61b790b985706b00072cb797/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:-1 group-title="Filmes" tvg-id="CineMonde" tvg-logo="https://i.imgur.com/dpat1CH.png" ,CineMonde
+https://video01.soultv.com.br/cinemonde/cinemonde/playlist.m3u8
+#EXTINF:-1 group-title="Filmes" tvg-id="DarkFlix" tvg-logo="https://i.imgur.com/XKMFQRl.png" ,DarkFlix
+https://video01.soultv.com.br/darkflix/darkflix/playlist.m3u8
+#EXTINF:-1 group-title="Filmes" tvg-logo="https://i.imgur.com/DF6CIfC.png" ,MovieSphere
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-moviespherebrazil-runtimelatam/playlist.m3u8
+#EXTINF:-1 group-title="Filmes" tvg-logo="https://i.imgur.com/Fvg43uJ.png" ,MyTime Movie Network
+https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Filmes" tvg-logo="https://i.imgur.com/QapVmCb.png" ,Soul Cine Clube
+https://video01.soultv.com.br/soulcine/soulcine/playlist.m3u8

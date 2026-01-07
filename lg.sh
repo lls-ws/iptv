@@ -38,6 +38,14 @@ lg_group()
 	
 	sed -i 's/.*#EXTINF:-1\([^,]*\).[0-9]*\([$[[:space:]]]*\)/#EXTINF:-1\1,\2/g' ${PLAYLIST_LLS}
 	
+	echo "Removing Extra Names..."
+	
+	sed -i 's/POR//g' ${PLAYLIST_LLS}
+	
+	sed -i 's/Portuguese//g' ${PLAYLIST_LLS}
+	
+	sed -i 's/Grátis//g' ${PLAYLIST_LLS}
+	
 	favorites_group
 	
 }

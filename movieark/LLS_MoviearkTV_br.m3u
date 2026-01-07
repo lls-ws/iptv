@@ -1,8 +1,10 @@
+#EXTINF:-1 group-title="Filmes",Adrenalina Pura TV Halloween
+https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/61d31f5ea0524ab392ddf5c3ea37d678/playlist.m3u8
+#EXTINF:-1 group-title="Filmes",Adrenalina Pura TV
+https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/d53d83b32f1c44c88d5bb1ba466089d9/playlist.m3u8
 #EXTINF:-1 group-title="Filmes",Ação Total TV
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68c7aa01e9e90f4e11dd3dee/bunnycontent_main.m3u8
-#EXTINF:-1 group-title="Filmes",Medo TV
-https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68c7aa9ee9e90f4e11dd42ea/bunnycontent_main.m3u8
-#EXTINF:-1 group-title="Filmes",Moviesphere
-https://amg00353-amg00353c29-tcl-us-6383.playouts.now.amagi.tv/playlist/amg00353-lionsgatetvfast-moviespherebrazil-tclus/playlist.m3u8?dnt={{DNT}}&app_bundle={{appPackage}}&app_name={{appName}}&app_store_url={{AppStoreUrl}}&network_name=tinykernel&did={{DID}}&device_make={{DeviceMake}}&device_model={{DeviceModel}}&gdpr={{Gdpr}}&us_privacy={{UsPrivacy}}&GdprConsent={{GdprConsent}}&app_domain={{AppDomain}}&coppa={{Coppa}}&app_version={{AppVersion}}&app_cat={{AppCat}}&ifa_type={{IFA_TYPE}}
 #EXTINF:-1 group-title="Filmes",CINDIE LITE
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/b1226ff17e924e59803c486e434e96d4/playlist.m3u8
+#EXTINF:-1 group-title="Filmes",Medo TV
+https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68c7aa9ee9e90f4e11dd42ea/bunnycontent_main.m3u8

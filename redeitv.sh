@@ -16,7 +16,7 @@ redeitv_download()
 redeitv_favorites()
 {
 	
-	iptv_favorites "3"
+	iptv_favorites
 	
 }
 
@@ -37,6 +37,10 @@ redeitv_group()
 	echo -e "\nRemoving group-title..."
 	
 	sed -i 's/,group-title="sp"//g' ${PLAYLIST_LLS}
+	
+	echo "Removing Extra Names..."
+	
+	sed -i 's/CANAL 4 FILMES//g' ${PLAYLIST_LLS}
 
 	favorites_group
 	

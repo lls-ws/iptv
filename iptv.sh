@@ -214,14 +214,6 @@ iptv_epg()
 iptv_favorites()
 {
 	
-	NAME_POSITION=2
-	
-	if [ -n "${1}" ]; then
-	
-		NAME_POSITION="$1"
-	
-	fi
-	
 	iptv_check
 	
 	check_dir ${FAVORITES_DIR}
@@ -231,10 +223,14 @@ iptv_favorites()
 		echo "Get Channel Names..."
 		
 		cat ${PLAYLIST_ALL_IPTV} | \
-		grep "EXTINF" | \
-		cut -d ',' -f ${NAME_POSITION} > ${FAVORITE_FILE}
+		grep "EXTINF" |
+		rev | \
+		cut -d ',' -f 1 |
+		rev > ${FAVORITE_FILE}
 		
 		sed -i '1i # Remove comment to add channel' ${FAVORITE_FILE}
+		
+		sed -i "s/^[0-9]*[[:space:]]//" ${FAVORITE_FILE}
 		
 		sed -i "s/^/#/" ${FAVORITE_FILE}
 		
@@ -250,9 +246,8 @@ favorites_create()
 	favorites_check
 	
 	echo "Get Favorites Channel Names..."
-	cat ${FAVORITE_FILE} | \
-	grep -v '#' | \
-	cut -d "#" -f2- > ${FAVORITES_FILE}
+	
+	cat ${FAVORITE_FILE} | grep -v '#' | sort > ${FAVORITES_FILE}
 	
 	if [ -f ${PLAYLIST_LLS} ]; then
 	
@@ -260,12 +255,13 @@ favorites_create()
 	
 	fi
 	
-	echo "Creating Playlist: ${PLAYLIST_LLS}"
+	echo -e "Creating Playlist: ${PLAYLIST_LLS}\n"
 	touch ${PLAYLIST_LLS}
 	
 	while IFS= read -r CHANNEL; do
 	  
 	  echo "Channel: ${CHANNEL}"
+	  
 	  cat ${PLAYLIST_ALL_IPTV} | grep -A1 "${CHANNEL}" >> ${PLAYLIST_LLS}
 	  
 	done < ${FAVORITES_FILE}
@@ -306,12 +302,13 @@ remove_extra_names()
 }
 
 SERVERS_NAME=(
-	"movieark"
-	"lg"
 	"samsung"
-	"pluto"
+	"meutedio"
+	"movieark"
 	"redeitv"
 	"tcl"
+	"lg"
+	"pluto"
 )
 
 if [[ " ${SERVERS_NAME[*]} " =~ " ${1} " ]]; then

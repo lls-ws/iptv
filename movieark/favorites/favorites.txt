@@ -6,7 +6,7 @@
 Ação Total TV
 Medo TV
 #Runtime Crime
-Moviesphere
+#Moviesphere
 #Runtime TV E Filmes
 #Runtime Comédia
 #Runtime Familia
@@ -14,7 +14,7 @@ Moviesphere
 #Filmelier TV Esperança
 #Filmelier TV Vida Real
 #Adrenalina Pura TV Halloween
-#Adrenalina Pura TV
+Adrenalina Pura TV
 #Filmelier TV
 #Spark TV Luz E Amor
 #Romance Channel
