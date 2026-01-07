@@ -83,10 +83,10 @@ iptv_set()
 
 	TEXT_EDITOR="featherpad"
 	
-	SERVER_NAME="${1}"
-	SERVER_DIR="${SERVER_NAME}"
+	LLS_DIR="streams"
 	
-	LLS_DIR="lls"
+	SERVER_NAME="${1}"
+	SERVER_DIR="${LLS_DIR}/${SERVER_NAME}"
 	
 	REPOSITORY_NAME="lls-ws.github.io"
 	REPOSITORY_DIR=~/${REPOSITORY_NAME}
@@ -228,9 +228,8 @@ iptv_favorites()
 		cut -d ',' -f 1 |
 		rev > ${FAVORITE_FILE}
 		
-		sed -i '1i # Remove comment to add channel' ${FAVORITE_FILE}
-		
-		sed -i "s/^[0-9]*[[:space:]]//" ${FAVORITE_FILE}
+		sed -i '1i # Example: Filmes#Channel Name' ${FAVORITE_FILE}
+		sed -i '1i # Insert group-title after the comment to add channel' ${FAVORITE_FILE}
 		
 		sed -i "s/^/#/" ${FAVORITE_FILE}
 		
@@ -247,7 +246,7 @@ favorites_create()
 	
 	echo "Get Favorites Channel Names..."
 	
-	cat ${FAVORITE_FILE} | grep -v '#' | sort > ${FAVORITES_FILE}
+	cat ${FAVORITE_FILE} | grep -v '^#' | sort > ${FAVORITES_FILE}
 	
 	if [ -f ${PLAYLIST_LLS} ]; then
 	
@@ -260,24 +259,23 @@ favorites_create()
 	
 	while IFS= read -r CHANNEL; do
 	  
-	  echo "Channel: ${CHANNEL}"
+	  GROUP_TITLE=`echo ${CHANNEL} | cut -d "#" -f 1`
 	  
-	  cat ${PLAYLIST_ALL_IPTV} | grep -A1 "${CHANNEL}" >> ${PLAYLIST_LLS}
+	  CHANNEL_NAME=`echo ${CHANNEL} | cut -d "#" -f 2`
+	  
+	  CHANNEL_TMP="${SERVER_DIR}/channel.tmp"
+	  
+	  echo "Channel: ${GROUP_TITLE} - ${CHANNEL_NAME}"
+	  
+	  cat ${PLAYLIST_ALL_IPTV} | grep -A1 "${CHANNEL_NAME}" > ${CHANNEL_TMP}
+	  
+	  sed -i 's/EXTINF:-1/EXTINF:-1 group-title="'${GROUP_TITLE}'"/g' ${CHANNEL_TMP}
+	  
+	  cat ${CHANNEL_TMP} >> ${PLAYLIST_LLS}
 	  
 	done < ${FAVORITES_FILE}
 	
-}
-
-favorites_group()
-{
-
-	echo -e "\nAdd group-title..."
-	
-	sed -i 's/EXTINF:-1/EXTINF:-1 group-title="Filmes"/g' ${PLAYLIST_LLS}
-	
-	echo "Removing End Line Spaces..."
-	
-	sed -i 's/^[[:space:]]*//;s/[[:space:]]*$//' ${PLAYLIST_LLS}
+	rm -fv ${CHANNEL_TMP}
 	
 }
 
@@ -286,7 +284,9 @@ remove_channel_numbers()
 	
 	echo -e "\nRemoving Channel Numbers..."
 	
-	sed -i 's/^\(#EXTINF:-1,\)[0-9]*[[:space:]]/\1/g' ${PLAYLIST_LLS}
+	sed -i 's/.*#EXTINF:-1\([^,]*\).[0-9]*\([$[[:space:]]]*\)/#EXTINF:-1\1,\2/g' ${PLAYLIST_LLS}
+	
+	sed -i 's/, /,/' ${PLAYLIST_LLS}
 	
 }
 
@@ -301,21 +301,32 @@ remove_extra_names()
 	
 }
 
+remove_spaces_end()
+{
+	
+	echo "Removing Spaces at End of Line..."
+	
+	sed -i 's/[[:blank:]]*$//' ${PLAYLIST_LLS}
+	
+}
+
+clear
+
 SERVERS_NAME=(
 	"samsung"
 	"meutedio"
 	"movieark"
 	"redeitv"
-	"tcl"
 	"lg"
 	"pluto"
+	"tcl"
 )
 
 if [[ " ${SERVERS_NAME[*]} " =~ " ${1} " ]]; then
 
 	iptv_set ${1}
 	
-	. ${SERVER_NAME}.sh
+	. scripts/${SERVER_NAME}.sh
 	
 	case "$2" in
 		download)
