@@ -43,15 +43,5 @@ meutedio_group()
 	echo -e "\nReplacing group-title..."
 	
 	sed -i 's/ group-title="Brasil: cinema"//g' ${PLAYLIST_LLS}
-	
-	echo "Removing Extra Names..."
-	
-	sed -i 's/| Soul TV Brasil//g' ${PLAYLIST_LLS}
-	
-	sed -i 's/| Brasil//g' ${PLAYLIST_LLS}
-	
-	sed -i 's/HD//g' ${PLAYLIST_LLS}
-	
-	remove_spaces_end
 
 }

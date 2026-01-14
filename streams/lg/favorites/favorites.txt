@@ -1,15 +1,15 @@
-## Insert group-title after the comment to add channel
-## Example: Filmes#Channel Name
+## Insert Add after the comment to add channel
+## Example: Add#Channel Name
 #126 Veja+
-#127 Jovem Pan
+Add#127 Jovem Pan
 #129 Bloomberg TV+
-#130 SBT News
-#132 CNN Brasil
+Add#130 SBT News
+Add#132 CNN Brasil
 #133 CNN MONEY
-#134 Times Brasil licenciado exclusivo CNBC
+Add#134 Times Brasil licenciado exclusivo CNBC
 #137 TIME
 #138 Pluto TV Record News
-#140 Euronews Português
+Add#140 Euronews Português
 #141 USA TODAY News
 #142 CBS News
 #144 Pluto TV Canal UOL
@@ -51,6 +51,7 @@
 #306 Stingray Naturescape
 #307 Pluto TV Natureza
 #310 Smithsonian Channel Pluto TV
+#313 WedoAmorPielSalvaje
 #314 Tu Cine
 #315 FreeTV Drama
 #351 Sony One Shark Tank Brasil
@@ -182,10 +183,10 @@
 #891 FreeTV Familia
 #894 FreeTV Terror
 #895 FreeTV Live
-Filmes#897 Xumo Filmes Grátis
+Add#897 Xumo Filmes Grátis
 #898 NEW KMOVIES
 #899 American Classics
-Filmes#900 Dark Matter TV Brazil
+Add#900 Dark Matter TV Brazil
 #901 Pluto TV Cine Sucessos
 #902 Pluto TV Filmes Ação
 #903 Pluto TV Cine Comédia
@@ -195,21 +196,21 @@ Filmes#900 Dark Matter TV Brazil
 #907 Pluto TV Filmes Nacionais
 #908 Pluto TV Cine Clássicos
 #909 Pluto TV Cine Romance
-Romance#910 Spark TV Luz E Amor
+Add#910 Spark TV Luz E Amor
 #911 Pluto TV Cine Comédia Romântica
 #912 Pluto TV Ficção Científica
 #913 Pluto TV Cine Família
-Filmes#915 Runtime
-Filmes#916 CinEspanto
-Filmes#917 Runtime Crime
-Romance#918 Runtime Romance
-Filmes#919 Runtime Familia
-Filmes#920 Runtime Comédia
-Filmes#921 Runtime Ação
-Filmes#925 Filmelier TV Vida Real
-Romance#926 Esperanca
-Romance#927 Filmelier TV Paixão
-Filmes#928 Filmelier Portuguese
+#915 Runtime
+#916 CinEspanto
+#917 Runtime Crime
+#918 Runtime Romance
+#919 Runtime Familia
+#920 Runtime Comédia
+#921 Runtime Ação
+Add#925 Filmelier TV Vida Real
+Add#926 Esperanca
+Add#927 Filmelier TV Paixão
+Add#928 Filmelier Portuguese
 #930 Adrenalina Pura TV POR
-Filmes#931 Adrenalina Pura TV Halloween
-Filmes#940 Sony One Cinema
+Add#931 Adrenalina Pura TV Halloween
+Add#940 Sony One Cinema

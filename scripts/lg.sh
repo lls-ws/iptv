@@ -25,27 +25,6 @@ lg_create()
 	
 	favorites_create
 	
-	lg_group
-	
 	iptv_create
-	
-}
-
-lg_group()
-{
-
-	echo "Removing Extra Names..."
-	
-	sed -i 's/ POR//g' ${PLAYLIST_LLS}
-	
-	sed -i 's/ Brazil//g' ${PLAYLIST_LLS}
-	
-	sed -i 's/ Portuguese//g' ${PLAYLIST_LLS}
-	
-	sed -i 's/ Grátis//g' ${PLAYLIST_LLS}
-	
-	remove_channel_numbers
-	
-	remove_spaces_end
 	
 }

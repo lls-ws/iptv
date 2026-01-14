@@ -25,19 +25,6 @@ tcl_create()
 	
 	favorites_create
 	
-	tcl_group
-	
 	iptv_create
-	
-}
-
-tcl_group()
-{
-
-	remove_channel_numbers
-	
-	remove_extra_names
-	
-	remove_spaces_end
 	
 }

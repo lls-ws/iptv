@@ -1,26 +1,26 @@
 ## Insert group-title after the comment to add channel
-## Example: Filmes#Channel Name
+## Example: Add#Channel Name
 #Grjngo
-#Runtime Ação
-#CinEspanto
+Add#Runtime Ação
+Add#CinEspanto
 #Filmelier TV Paixão
-Filmes#Ação Total TV
-Filmes#Medo TV
-#Runtime Crime
+Add#Ação Total TV
+Add#Medo TV
+Add#Runtime Crime
 #Moviesphere
-#Runtime TV E Filmes
-#Runtime Comédia
-#Runtime Familia
-#Runtime Romance
+Add#Runtime TV E Filmes
+Add#Runtime Comédia
+Add#Runtime Familia
+Add#Runtime Romance
 #Filmelier TV Esperança
 #Filmelier TV Vida Real
 #Adrenalina Pura TV Halloween
 #Adrenalina Pura TV
 #Filmelier TV
 #Spark TV Luz E Amor
-#Romance Channel
+Add#Romance Channel
 #Sony One Cinema
-Filmes#CINDIE LITE
+Add#CINDIE LITE
 #Os Arquivos do FBI
 #Assombrações
 #Detetives Médicos
@@ -39,7 +39,7 @@ Filmes#CINDIE LITE
 #FilmRise Séries Gratuitas
 #Sobrevivi
 #Novelíssima
-#Record News
+Add#Record News
 #CNN Brasil
 #Jovem Pan News
 #Canal UOL

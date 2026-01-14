@@ -1,5 +1,5 @@
 ## Insert group-title after the comment to add channel
-## Example: Filmes#Channel Name
+## Example: Add#Channel Name
 #REDE VIVAX TV
 #TV TUDO
 #TV DO CARRO
@@ -89,7 +89,7 @@
 #Yeeaah
 #TV MIRA FM
 #TOP MIX TV
-Filmes#TOP MIX TV CANAL 4 FILMES
+Add#TOP MIX TV CANAL 4 FILMES
 #TOP MIX TV CANAL 3 GOSPEL
 #Acesso Brasil
 #TV Gazin

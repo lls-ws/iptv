@@ -7,9 +7,18 @@
 pluto_install()
 {
 	
-	echo "Installing nodejs npm packages..."
+	echo "Cheking nodejs npm packages are install..."
+	apt list --installed nodejs npm
 	
-	sudo apt -y install nodejs npm
+	STATUS=$?
+	
+	if [ ${STATUS} -eq 1 ]; then
+	
+		echo "Installing nodejs npm packages..."
+	
+		sudo apt -y install nodejs npm
+	
+	fi 
 	
 	echo "Node version: " `node -v`
     echo "npm version: " `npm -v`
@@ -124,10 +133,9 @@ pluto_group()
 	
 	sed -i '/#EXTM3U/d' ${PLAYLIST_LLS}
 	
-	sed -i 's/group-title="Filmes", Pluto TV Cine Romance/group-title="Romance", Pluto TV Cine Romance/g' ${PLAYLIST_LLS}
-	sed -i 's/group-title="Filmes", Pluto TV Filmes Nacionais/group-title="Romance", Pluto TV Filmes Nacionais/g' ${PLAYLIST_LLS}
-	sed -i 's/group-title="Filmes", Pluto TV Cine Comédia Romântica/group-title="Romance", Pluto TV Cine Comédia Romântica/g' ${PLAYLIST_LLS}
-	sed -i 's/group-title="Filmes", Pluto TV Bang Bang/group-title="Velhos", Pluto TV Bang Bang/g' ${PLAYLIST_LLS}
-	sed -i 's/group-title="Mistérios e Sobrenatural"/group-title="Mistérios"/g' ${PLAYLIST_LLS}
+	sed -i 's/ group-title="Filmes"//' ${PLAYLIST_LLS}
+	sed -i 's/ group-title="Mistérios e Sobrenatural"//' ${PLAYLIST_LLS}
+	
+	sed -i 's/#EXTINF:0/#EXTINF:-1/g' ${PLAYLIST_LLS}
 	
 }

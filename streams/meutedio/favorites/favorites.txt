@@ -1,5 +1,5 @@
 ## Insert group-title after the comment to add channel
-## Example: Filmes#Channel Name
+## Example: Add#Channel Name
 #Adrenalina Freezone | Pluto TV Brasil
 #Adrenalina Freezone | Pluto TV Brasil ~ link 2
 #Adrenalina Freezone | Pluto TV Brasil ~ link 3
@@ -23,8 +23,8 @@
 #Cine Sucessos | link 2
 #Cine Terror | Brasil
 #Cine Terror | link 2
-Velhos#CineMonde | Soul TV Brasil
-Filmes#DarkFlix HD | Soul TV Brasil
+Add#CineMonde | Soul TV Brasil
+Add#DarkFlix HD | Soul TV Brasil
 #Ficção Científica | Pluto TV Brasil
 #Ficção Científica | link 2
 #Filmelier | Pluto TV Brasil 
@@ -35,8 +35,8 @@ Filmes#DarkFlix HD | Soul TV Brasil
 #Filmes Nacionais | link 2
 #Filmes Suspense | Pluto TV Brasil 
 #Filmes Suspense | link 2
-Filmes#MovieSphere | Brasil
-Filmes#MyTime Movie Network | Brasil
+Add#MovieSphere | Brasil
+Add#MyTime Movie Network | Brasil
 #RunTime | Brasil
 #RunTime Ação | Brasil
 #RunTime Ação | Brasil ~ link 2
@@ -47,4 +47,4 @@ Filmes#MyTime Movie Network | Brasil
 #RunTime Romance | Brasil
 #RunTime TV e Filmes | Pluto TV Brasil
 #RunTime TV e Filmes | Pluto TV Brasil | link 2
-Velhos#Soul Cine Clube | Brasil 
+Add#Soul Cine Clube | Brasil 

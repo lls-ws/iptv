@@ -1,5 +1,5 @@
 ## Insert group-title after the comment to add channel
-## Example: Filmes#Channel Name
+## Example: Add#Channel Name
 #119 Caze TV (BR)
 #137 Hardcore Pawn Negócios Extremos (BR)
 #139 Mr. Bean Series (BR)
@@ -9,7 +9,7 @@
 #GE Fast (BR)
 #1004 Record News (BR)
 #1005 MasterChef Brasil (BR)
-Velhos#1006 Grjngo Brasil (BR)
+Add#1006 Grjngo Brasil (BR)
 #1007 Ubisoft (BR)
 #1009 Toon Goggles (BR)
 #1009 Toon Goggles (BR) H265

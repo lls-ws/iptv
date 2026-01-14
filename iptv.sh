@@ -228,14 +228,26 @@ iptv_favorites()
 		cut -d ',' -f 1 |
 		rev > ${FAVORITE_FILE}
 		
-		sed -i '1i # Example: Filmes#Channel Name' ${FAVORITE_FILE}
-		sed -i '1i # Insert group-title after the comment to add channel' ${FAVORITE_FILE}
+		sed -i '1i # Example: Add#Channel Name' ${FAVORITE_FILE}
+		sed -i '1i # Insert Add after the comment to add channel' ${FAVORITE_FILE}
 		
 		sed -i "s/^/#/" ${FAVORITE_FILE}
+	
+	else
+	
+		${TEXT_EDITOR} ${FAVORITE_FILE}
+		
+		echo "Favorites already order!"
+		echo "To create new, remove current file ${FAVORITE_FILE}"
+		exit 1
 		
 	fi
 	
-	${TEXT_EDITOR} ${FAVORITE_FILE}
+	if [ "${SERVER_NAME}" != "lls" ]; then
+	
+		${TEXT_EDITOR} ${FAVORITE_FILE}
+		
+	fi
 	
 }
 
@@ -246,7 +258,7 @@ favorites_create()
 	
 	echo "Get Favorites Channel Names..."
 	
-	cat ${FAVORITE_FILE} | grep -v '^#' | sort > ${FAVORITES_FILE}
+	cat ${FAVORITE_FILE} | grep -v '^#' > ${FAVORITES_FILE}
 	
 	if [ -f ${PLAYLIST_LLS} ]; then
 	
@@ -279,37 +291,6 @@ favorites_create()
 	
 }
 
-remove_channel_numbers()
-{
-	
-	echo -e "\nRemoving Channel Numbers..."
-	
-	sed -i 's/.*#EXTINF:-1\([^,]*\).[0-9]*\([$[[:space:]]]*\)/#EXTINF:-1\1,\2/g' ${PLAYLIST_LLS}
-	
-	sed -i 's/, /,/' ${PLAYLIST_LLS}
-	
-}
-
-remove_extra_names()
-{
-	
-	echo "Removing Extra Names..."
-	
-	sed -i 's/(BR)//g' ${PLAYLIST_LLS}
-	
-	sed -i 's/(Substituto TCL)//g' ${PLAYLIST_LLS}
-	
-}
-
-remove_spaces_end()
-{
-	
-	echo "Removing Spaces at End of Line..."
-	
-	sed -i 's/[[:blank:]]*$//' ${PLAYLIST_LLS}
-	
-}
-
 clear
 
 SERVERS_NAME=(
@@ -317,9 +298,10 @@ SERVERS_NAME=(
 	"meutedio"
 	"movieark"
 	"redeitv"
-	"lg"
 	"pluto"
 	"tcl"
+	"lg"
+	"lls"
 )
 
 if [[ " ${SERVERS_NAME[*]} " =~ " ${1} " ]]; then

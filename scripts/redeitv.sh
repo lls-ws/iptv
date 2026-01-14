@@ -38,8 +38,4 @@ redeitv_group()
 	
 	sed -i 's/,group-title="sp"//g' ${PLAYLIST_LLS}
 	
-	echo "Removing Extra Names..."
-	
-	sed -i 's/ CANAL 4 FILMES//g' ${PLAYLIST_LLS}
-	
 }
