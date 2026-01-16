@@ -2,9 +2,9 @@
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/00c452757e8745849f778dbcafb4e62d/playlist.m3u8
 #EXTINF:-1 group-title="Add" tvg-logo="https://lge-static.ottera.tv/prod/run/linear_channel/thumbnails/poster/280x400/cinespanto_brazil_1400x2000.png",CinEspanto
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/cda1dd579f4c4beea6fc1c6a0064d807/playlist.m3u8
-#EXTINF:-1 group-title="Add",Ação Total TV
+#EXTINF:-1 group-title="Add" tvg-logo="https://www.jwave.com.br/wp-content/uploads/2025/09/ACAO-TOTAL-TV.jpg",Ação Total TV
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68c7aa01e9e90f4e11dd3dee/bunnycontent_main.m3u8
-#EXTINF:-1 group-title="Add",Medo TV
+#EXTINF:-1 group-title="Add" tvg-logo="https://www.jwave.com.br/wp-content/uploads/2025/09/Medo-TV.jpg",Medo TV
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68c7aa9ee9e90f4e11dd42ea/bunnycontent_main.m3u8
 #EXTINF:-1 group-title="Add" tvg-logo="https://lge-static.ottera.tv/prod/run/linear_channel/thumbnails/poster/280x400/runtime_crime_brazil_1400x2000.png",Runtime Crime
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/5b99b8c4aa6d4fbc8937eb7d01463c5b/playlist.m3u8
@@ -16,9 +16,9 @@ https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/151f0cac9fb2
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/3ada6fb1fe464ae5aa5b8b60ae285c73/playlist.m3u8
 #EXTINF:-1 group-title="Add" tvg-logo="https://lge-static.ottera.tv/prod/run/linear_channel/thumbnails/poster/280x400/runtime_brazil_1400x2000_0.png",Runtime Romance
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/daf56ed11a104537888487ebcc17c256/playlist.m3u8
-#EXTINF:-1 group-title="Add",Romance Channel
+#EXTINF:-1 group-title="Add" tvg-logo="https://image.roku.com/developer_channels/prod/805c999cb8e6206c655778a7f468ab3f8c4a88dbc7790027a69f72e43f8a3986.png",Romance Channel
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/3f5318807c544310b8a422251ea1afaa/playlist.m3u8
-#EXTINF:-1 group-title="Add",CINDIE LITE
+#EXTINF:-1 group-title="Add" tvg-logo="https://d1y2dphb29uhu6.cloudfront.net/c/433/images/cqYA0kmQKlUvEWe95h6O7g.png",CINDIE LITE
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/b1226ff17e924e59803c486e434e96d4/playlist.m3u8
-#EXTINF:-1 group-title="Add" tvg-logo="https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",Record News
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=7359
+#EXTINF:-1 group-title="Add" tvg-logo="https://images.pluto.tv/channels/619e6614c9d9650007a2b171/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",Euronews Português
+https://eae43398.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VENMLWJyX0V1cm9uZXdzUG9ydHVndWVzX0hMUw/playlist.m3u8

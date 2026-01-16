@@ -1,0 +1,195 @@
+## Insert Add after the comment to add channel
+## Example: Add#Channel Name
+#Record News
+#CNN Brasil
+#U CHANNEL
+#TV Meio
+#ISTV
+Add#Bradoky
+#TV Judaica
+#Bitt TV
+#TV Marataizes
+#Joy Flix
+#Alpha Channel TV
+#TV IN
+#Canal Kanade
+#BH Channel
+#NSports
+#Acesso Brasil TV
+#GLN TV
+#Imperial TV
+#TV Sonata
+#BR Super TV
+#AWTV
+#Darkflix
+#Unique TV
+#AG Tv
+#Kids Mais
+#Tv Grande Natal HDTV
+#011 News
+#TV R
+#Tv Metropolitana Rio
+#Tv Estilo
+#Sol Brasil
+#TV Surubim
+#Rede QDM
+#TV MAX
+#Assim é Portugal
+#TV Correio do Imbé
+#COM BRASIL
+#Rede Premium TV
+#WTJ TV
+#Blits TV
+#D+ TV
+#Rede UTV Brasil
+#Q Tal Channel
+#TV Planalto Norte
+#TV Alternativa
+#Unique Sports
+#TV Petrópolis
+#TV Mon HD
+#TV Carioca Net
+#Amazon Sat
+#Play TV Horse
+#TV A Folha
+#TV CNB
+#Phoenix TV
+#Tv Adorar
+#ABBA RTV
+#Rede Brasil
+#SescTV
+#Tv Life America
+#Primer TV
+#Tv Verdade
+#Hackathon Brasil TV
+#TV Florida
+#SOU TV
+#Adesso TV
+#VRT Channel
+#TVídeoNews
+#TV Difusão
+#TV Rede Mais Familia
+#Programa 4 por 4
+#TV Folha do Campo
+#RAE TV
+#RS SPORTS
+#RS SPORTS 2
+#REISEN CLUBE TV
+#Astral TV
+#WTV Brasil
+#TV Avivando Nações
+#Tv Ponta da Serra
+#TV Ondas Play
+#RS SPORTS 3
+#MKK TV
+#AMC PLAY TV
+#Tv Zoom
+#América TV
+#TV Nova MT
+#TV Conquista
+#RSC TV
+#TV Itapê
+#TV Erga Omnes
+#TV Votorantim
+#Extremo Oriental TV
+#CNB American TV
+#Tv Amplitude Juína
+#Tv Amplitude Juara
+#Lider TV
+#TV Rio Preto
+#TV Portuguesa
+#Tv Evangelizar
+#Veza TV
+#TV Sertão
+#Séries Classic
+#Br Global Station
+#TV COM
+#Tv Mogiana
+#START
+#GMC TV
+#TV Reconcavo
+#TV Mais Brasil
+#PONTV
+#Sport Club Internacional
+#Bem Melhor
+#Viajando pelo Brasil
+#Canal TVC
+#40 gtv
+#Republic
+#Bia Kicis
+#Lito Cavalcanti
+#Rede NGT TV
+#TV Onix
+#TV Litoral RN
+#Bem + TV
+#Rede TV Paraná
+#TV Liberdade
+#POA Streaming TV
+#Play TV
+#TV Agora de Limeira
+#TV SBN
+#Vivax
+#TV Rabelo
+#Tenda TV
+#Coletiva TV
+#Rede Gramado
+#Tv Aurora
+#Geekdot
+#TV da Pesca
+#TV Diário do Sertão
+#TV Alagoinha
+#Tv Nordestina
+#TV Marcheti
+#FMTV
+#TV Brasil Alemanha
+#TV O Repórter
+#Canal Rural
+#Pet Lovers TV
+#CNN Money
+#Agroplus
+#Hip Hop Vai Além TV
+#Canal do Boi
+#Kanuca TV Brasil
+#Tv História
+#Canal UOL
+#Times Brasil | CNBC
+#TV Notícias Agrícolas
+#VGS TV
+#Sou + Pop TV
+#Atitude New
+#Auge TV
+#TV Gazin
+#Conexão TV
+#UMA TV
+#Tv Nova Nordeste
+#Cinemonde
+#Vambora Channel
+#TV + Pet
+#Nova TV Agrotour
+#RIT TV
+#Rede TVS
+#TV PAMPA
+#Canal 25
+#Rede SDP TV
+#Central TV
+#Masper TV
+#Onda Digital TV
+#Peru Channel
+#DM Kids TV
+#BH TV
+#Viva e Eduque
+#B Channel
+#Paulo Zorello
+#Soul Lab Premium
+#Kpop TV
+#ABC Brasil
+#OK TV
+#Blast Channel TV
+#Rede SP TV
+#Soul Lab
+#Futbol1
+#Futbol2
+#Canal Marcão do Povo
+#Roraima TV
+#Soul TV
+#TV Milagro Brasil

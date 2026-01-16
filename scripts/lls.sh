@@ -86,6 +86,8 @@ lls_group()
 	
 	remove_spaces_end
 	
+	remove_double_line
+	
 }
 
 remove_group_name()
@@ -93,7 +95,7 @@ remove_group_name()
 	
 	echo -e "\nRemoving Group Name..."
 	
-	sed -i 's/ group-title="Filmes"//' ${PLAYLIST_LLS_TV}
+	sed -i 's/ group-title="Add"//' ${PLAYLIST_LLS_TV}
 	
 }
 
@@ -160,5 +162,14 @@ remove_spaces_end()
 	echo "Removing Spaces at End of Line..."
 	
 	sed -i '/^#/ s/[[:space:]]*$//' ${PLAYLIST_LLS_TV}
+	
+}
+
+remove_double_line()
+{
+	
+	echo "Removing Spaces at End of Line..."
+	
+	sed -i '/^--/d' ${PLAYLIST_LLS_TV}
 	
 }

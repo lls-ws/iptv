@@ -1,2 +1,8 @@
+#EXTINF:-1 group-title="Add" tvg-logo="https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",1004 Record News (BR)
+https://rnw-rn-tcl-roku-syndication.otteravision.com/rnw/rn/rnw_rn.m3u8
 #EXTINF:-1 group-title="Add",1006 Grjngo Brasil (BR)
 https://amogonetworx-grjngo-1-br.tcl.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Add" tvg-logo="https://d2mxb63djushzm.cloudfront.net/images/FILMELIER_400x200_DARK_TRANSPARENTE.png",1016 Filmelier TV (BR)
+https://amg00740-sofa-amg00740c8-tcl-us-7180.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Add" tvg-logo="http://d3bd0tgyk368z1.cloudfront.net/feeds/images/jovempan-fast/LGLOGO-400X200COLOR.png",10030 TV Jovem Pan News (BR)
+https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist.m3u8

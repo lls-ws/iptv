@@ -25,24 +25,8 @@ samsung_create()
 	
 	favorites_create
 	
-	samsung_group
+	adrenalina_pura_logo
 	
 	iptv_create
-	
-}
-
-samsung_group()
-{
-
-	samsung_logo
-	
-}
-
-samsung_logo()
-{
-	
-	URL_LOGO="https:\/\/d2mxb63djushzm.cloudfront.net\/images\/Sofa%20Digital\/Adrenalina%20Pura%20TV\/LG\/APTV-Logo-%20400x200.png"
-	
-	sed -i '/2646 Adrenalina Pura TV (BR) (Substituto TCL)/s/group-title="Add"/group-title="Add" tvg-logo="'${URL_LOGO}'"/g' ${PLAYLIST_LLS}
 	
 }

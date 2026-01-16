@@ -25,6 +25,14 @@ tcl_create()
 	
 	favorites_create
 	
+	jovempan_news_logo
+	
+	record_news_logo
+	
+	filmelier_logo
+	
+	grjngo_logo
+	
 	iptv_create
 	
 }

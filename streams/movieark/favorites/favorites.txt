@@ -39,7 +39,7 @@ Add#CINDIE LITE
 #FilmRise Séries Gratuitas
 #Sobrevivi
 #Novelíssima
-Add#Record News
+#Record News
 #CNN Brasil
 #Jovem Pan News
 #Canal UOL
@@ -50,7 +50,7 @@ Add#Record News
 #New Brasil
 #BM&C NEWS
 #TV Notícias Agrícolas
-#Euronews Português
+Add#Euronews Português
 #Bloomberg TV+
 #Turma da Mônica
 #DPA Fast

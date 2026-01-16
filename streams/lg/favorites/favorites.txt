@@ -1,7 +1,7 @@
 ## Insert Add after the comment to add channel
 ## Example: Add#Channel Name
 #126 Veja+
-Add#127 Jovem Pan
+#127 Jovem Pan
 #129 Bloomberg TV+
 Add#130 SBT News
 Add#132 CNN Brasil
@@ -9,7 +9,7 @@ Add#132 CNN Brasil
 Add#134 Times Brasil licenciado exclusivo CNBC
 #137 TIME
 #138 Pluto TV Record News
-Add#140 Euronews Português
+#140 Euronews Português
 #141 USA TODAY News
 #142 CBS News
 #144 Pluto TV Canal UOL
@@ -210,7 +210,7 @@ Add#910 Spark TV Luz E Amor
 Add#925 Filmelier TV Vida Real
 Add#926 Esperanca
 Add#927 Filmelier TV Paixão
-Add#928 Filmelier Portuguese
+#928 Filmelier Portuguese
 #930 Adrenalina Pura TV POR
 Add#931 Adrenalina Pura TV Halloween
 Add#940 Sony One Cinema

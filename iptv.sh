@@ -294,14 +294,15 @@ favorites_create()
 clear
 
 SERVERS_NAME=(
-	"samsung"
 	"meutedio"
 	"movieark"
 	"redeitv"
+	"samsung"
 	"pluto"
+	"soul"
 	"tcl"
-	"lg"
 	"lls"
+	"lg"
 )
 
 if [[ " ${SERVERS_NAME[*]} " =~ " ${1} " ]]; then
@@ -309,6 +310,7 @@ if [[ " ${SERVERS_NAME[*]} " =~ " ${1} " ]]; then
 	iptv_set ${1}
 	
 	. scripts/${SERVER_NAME}.sh
+	. scripts/logo.sh
 	
 	case "$2" in
 		download)
