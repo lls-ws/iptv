@@ -1,21 +1,20 @@
 # Change Line Order
-# Add Groups: Top10 Ação Suspense Família Terror Comédia Velhos Romance Notícias Mistério
+# Add Groups: Top Ação Suspense Família Terror Comédia Velhos Romance Notícias Mistério
 # Example: Suspense#Channel Name
-# Top10
-Top10#2646 Adrenalina Pura TV (BR) (Substituto TCL)
-Top10#940 Sony One Cinema
-Top10#MovieSphere | Brasil
-#928 Filmelier Portuguese ************ REMOVER **********
-Top10#1016 Filmelier TV (BR)
-Top10#CINDIE LITE
-Top10#Pluto TV Netmovies
-Top10#Runtime TV E Filmes
-Top10#Pluto TV Cine Sucessos
-Top10#TOP MIX TV CANAL 4 FILMES
-Top10#897 Xumo Filmes Grátis
+# Top
+Top#2646 Adrenalina Pura TV (BR) (Substituto TCL)
+Top#940 Sony One Cinema
+Top#MovieSphere | Brasil
+Top#1016 Filmelier TV (BR)
+Top#CINDIE LITE
+Top#Pluto TV Netmovies
+Top#Runtime TV E Filmes
+Top#Pluto TV Cine Sucessos
+Top#TOP MIX TV CANAL 4 FILMES
+Top#897 Xumo Filmes Grátis
+Top#Bradoky
 #
 # Ação
-Ação#Bradoky
 Ação#Ação Total TV
 Ação#Runtime Ação
 Ação#Pluto TV Filmes Ação
@@ -66,13 +65,11 @@ Romance#Pluto TV Filmes Nacionais
 Romance#MyTime Movie Network | Brasil
 #
 # Notícias
-#127 Jovem Pan		************ REMOVER **********
 Notícias#10030 TV Jovem Pan News (BR)
 Notícias#132 CNN Brasil
 Notícias#130 SBT News
 Notícias#1004 Record News (BR)
 Notícias#134 Times Brasil licenciado exclusivo CNBC
-#140 Euronews Português		************ REMOVER **********
 Notícias#Euronews Português
 #
 # Mistério

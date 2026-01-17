@@ -49,7 +49,7 @@ lls_order()
 	sort -o ${FAVORITE_FILE} ${FAVORITE_FILE}
 	
 	sed -i '1i # Example: Suspense#Channel Name' ${FAVORITE_FILE}
-	sed -i '1i # Add Groups: Top10 Ação Suspense Família Terror Comédia Velhos Romance Notícias Mistério' ${FAVORITE_FILE}
+	sed -i '1i # Add Groups: Top Ação Suspense Família Terror Comédia Velhos Romance Notícias Mistério' ${FAVORITE_FILE}
 	sed -i '1i # Change Line Order' ${FAVORITE_FILE}
 	
 	${TEXT_EDITOR} ${FAVORITE_FILE}

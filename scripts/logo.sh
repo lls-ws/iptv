@@ -86,7 +86,7 @@ jovempan_news_logo()
 euronews_logo()
 {
 	
-	URL_LOGO="https:\/\/images.pluto.tv\/channels\/619e6614c9d9650007a2b171\/logo.png?w=380\&h=110\&trim=auto\&trim-sd=10\&trim-md=0\&fit=clip\&fm=png"
+	URL_LOGO="https:\/\/provider-static.plex.tv\/epg\/cms\/production\/ec2b06ac-61e3-4707-a17b-562d69044a5c\/euronews_portuguese_logo.png"
 	
 	sed -i '/Euronews Português/s/group-title="Add"/group-title="Add" tvg-logo="'${URL_LOGO}'"/g' ${PLAYLIST_LLS}
 	
