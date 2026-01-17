@@ -2,9 +2,9 @@
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/00c452757e8745849f778dbcafb4e62d/playlist.m3u8
 #EXTINF:-1 group-title="Add" tvg-logo="https://lge-static.ottera.tv/prod/run/linear_channel/thumbnails/poster/280x400/cinespanto_brazil_1400x2000.png",CinEspanto
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/cda1dd579f4c4beea6fc1c6a0064d807/playlist.m3u8
-#EXTINF:-1 group-title="Add" tvg-logo="https://www.jwave.com.br/wp-content/uploads/2025/09/ACAO-TOTAL-TV.jpg",Ação Total TV
+#EXTINF:-1 group-title="Add" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvLs3tK7wPtRK_7phyNMead3BShGbYH4nXmA&s",Ação Total TV
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68c7aa01e9e90f4e11dd3dee/bunnycontent_main.m3u8
-#EXTINF:-1 group-title="Add" tvg-logo="https://www.jwave.com.br/wp-content/uploads/2025/09/Medo-TV.jpg",Medo TV
+#EXTINF:-1 group-title="Add" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGay7mqY6LQSqwVNzii1aORvT7auOJBYEWpQ&s",Medo TV
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68c7aa9ee9e90f4e11dd42ea/bunnycontent_main.m3u8
 #EXTINF:-1 group-title="Add" tvg-logo="https://lge-static.ottera.tv/prod/run/linear_channel/thumbnails/poster/280x400/runtime_crime_brazil_1400x2000.png",Runtime Crime
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/5b99b8c4aa6d4fbc8937eb7d01463c5b/playlist.m3u8

@@ -20,7 +20,7 @@ https://video01.logicahost.com.br/topmixtvfilmes/topmixtvfilmes/playlist.m3u8
 https://d29h829bjuxghm.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992307&ads.xumo_streamId=99992307&ads.channelId=99992307&ads.csid=lgchannels_br_xumofreemoviesbrazil_ssai&ads.channelName=xumofreemoviesbrazil_br&ads.xumo_contentName=XumoFreeMoviesBrazil&ads.xumo_contentId=5&ads.xumo_providerName=XumoFreeMoviesBrazil&ads.xumo_providerId=5&ads.content_category=IAB1-7&ads.content_genre=Movies&ads.content_language=en&ads.content_rating=tv-ma&ads.coppa=0&ads.did=[IFA]&ads.is_lat=[LMT]&ads.us_privacy=[US_PRIVACY]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.devicemake=[DEVICE_MAKE]&ads.appName=[APP_NAME]&ads.app_bundle=[APP_BUNDLE]&ads.app_version=[APP_VERSION]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.app_storeurl=[APP_STOREURL]
 #EXTINF:-1 group-title="Top" tvg-id="Bradoky" tvg-logo="https://d14vd6r4ppsx57.cloudfront.net/media/brand/BRADOKY_-_logo_2_-_Transp_reduz_V3mcKdI.png",Bradoky
 https://video01.soultv.com.br/bradoky/bradoky/playlist.m3u8
-#EXTINF:-1 group-title="Ação" tvg-logo="https://www.jwave.com.br/wp-content/uploads/2025/09/ACAO-TOTAL-TV.jpg",Ação Total
+#EXTINF:-1 group-title="Ação" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvLs3tK7wPtRK_7phyNMead3BShGbYH4nXmA&s",Ação Total
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68c7aa01e9e90f4e11dd3dee/bunnycontent_main.m3u8
 #EXTINF:-1 group-title="Ação" tvg-logo="https://lge-static.ottera.tv/prod/run/linear_channel/thumbnails/poster/280x400/runtime_action_brazil_1400x2000.png",Runtime Ação
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/00c452757e8745849f778dbcafb4e62d/playlist.m3u8
@@ -58,7 +58,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f1210d14ae1f80007bafb1d/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=6f468441-f2ff-11f0-9a66-09d5e7eed6da&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=1956c01b-8951-409c-a8ee-2d7d44936555&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Família" tvg-id="pluto-tv-cine-classicos" tvg-logo="http://images.pluto.tv/channels/5fa1612a669ba0000702017b/colorLogoPNG_1733440556804.png",Cine Clássicos
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fa1612a669ba0000702017b/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=6f46d262-f2ff-11f0-9a66-09d5e7eed6da&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=d2a9d44f-62d8-4cc8-bacc-7145573fb4df&userId=&serverSideAds=true
-#EXTINF:-1 group-title="Terror" tvg-logo="https://www.jwave.com.br/wp-content/uploads/2025/09/Medo-TV.jpg",Medo
+#EXTINF:-1 group-title="Terror" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGay7mqY6LQSqwVNzii1aORvT7auOJBYEWpQ&s",Medo
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68c7aa9ee9e90f4e11dd42ea/bunnycontent_main.m3u8
 #EXTINF:-1 group-title="Terror" tvg-id="pluto-tv-cine-terror-1" tvg-logo="http://images.pluto.tv/channels/5f12111c9e6c2c00078ef3bb/colorLogoPNG.png",Cine Terror
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f12111c9e6c2c00078ef3bb/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=6f468442-f2ff-11f0-9a66-09d5e7eed6da&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=ea4e8333-db94-41b8-86d1-dd18d8380c24&userId=&serverSideAds=true
@@ -72,7 +72,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62545ed3dab4380007582f7c/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=6f46f971-f2ff-11f0-9a66-09d5e7eed6da&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=d3f15bda-de8a-488e-bf97-6a4bb31f96c4&userId=&serverSideAds=true
 #EXTINF:-1 group-title="Velhos" tvg-id="CineMonde" tvg-logo="https://i.imgur.com/dpat1CH.png",CineMonde
 https://video01.soultv.com.br/cinemonde/cinemonde/playlist.m3u8
-#EXTINF:-1 group-title="Velhos",Grjngo
+#EXTINF:-1 group-title="Velhos" tvg-logo="https://i.ytimg.com/vi/v6ux1Oty8EA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCuv65d0euYY4rebzVBsXcG246zIw",Grjngo
 https://amogonetworx-grjngo-1-br.tcl.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Velhos" tvg-logo="https://i.imgur.com/QapVmCb.png",Cine Clube
 https://video01.soultv.com.br/soulcine/soulcine/playlist.m3u8
