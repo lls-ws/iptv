@@ -95,7 +95,7 @@ euronews_logo()
 grjngo_logo()
 {
 	
-	URL_LOGO="https://i.ytimg.com/vi/v6ux1Oty8EA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCuv65d0euYY4rebzVBsXcG246zIw"
+	URL_LOGO="https:\/\/i.ytimg.com\/vi\/v6ux1Oty8EA\/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD\&rs=AOn4CLCuv65d0euYY4rebzVBsXcG246zIw"
 	
 	sed -i '/Grjngo/s/group-title="Add"/group-title="Add" tvg-logo="'${URL_LOGO}'"/g' ${PLAYLIST_LLS}
 	
@@ -122,7 +122,7 @@ romance_channel_logo()
 acao_total_logo()
 {
 	
-	URL_LOGO="https:\/\/www.jwave.com.br\/wp-content\/uploads\/2025\/09\/ACAO-TOTAL-TV.jpg"
+	URL_LOGO="https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQvLs3tK7wPtRK_7phyNMead3BShGbYH4nXmA\&s"
 	
 	sed -i '/Ação Total TV/s/group-title="Add"/group-title="Add" tvg-logo="'${URL_LOGO}'"/g' ${PLAYLIST_LLS}
 	
@@ -131,7 +131,7 @@ acao_total_logo()
 medo_logo()
 {
 	
-	URL_LOGO="https:\/\/www.jwave.com.br\/wp-content\/uploads\/2025\/09\/Medo-TV.jpg"
+	URL_LOGO="https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTGay7mqY6LQSqwVNzii1aORvT7auOJBYEWpQ\&s"
 	
 	sed -i '/Medo TV/s/group-title="Add"/group-title="Add" tvg-logo="'${URL_LOGO}'"/g' ${PLAYLIST_LLS}
 	
