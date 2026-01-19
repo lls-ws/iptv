@@ -51,7 +51,7 @@ favorites_check()
 	if [ -z "$(ls ${FAVORITES_DIR}/*.txt 2>/dev/null)" ]; then
 	
 		echo "Not found files on directoy ${FAVORITES_DIR}"
-		echo "Run: bash $0 $(basename ${FAVORITES_DIR})"
+		echo "Run: bash $0 ${SERVER_NAME} $(basename ${FAVORITES_DIR})"
 		exit 1
 	
 	fi
@@ -69,6 +69,11 @@ iptv_download()
 	
 		echo "Getting ${IPTV_NAME}"
 		(cd ${SERVER_DIR}; wget -O "${SERVER_NAME^}TV_br.m3u" ${PLAYLIST_URL}; cd -)
+	
+	else
+	
+		echo "File already exist!"
+		echo "To download new, remove file: ${PLAYLIST_ALL_IPTV}"
 	
 	fi 
 	
@@ -88,6 +93,10 @@ iptv_set()
 	SERVER_NAME="${1}"
 	SERVER_DIR="${LLS_DIR}/${SERVER_NAME}"
 	
+	CHANNEL_NAME="${SERVER_DIR}/channels.txt"
+	CHANNEL_NEW="${SERVER_DIR}/channels_new.txt"
+	CHANNEL_FAVORITE="${SERVER_DIR}/channels_favorites.txt"
+	
 	REPOSITORY_NAME="lls-ws.github.io"
 	REPOSITORY_DIR=~/${REPOSITORY_NAME}
 	
@@ -98,7 +107,10 @@ iptv_set()
 	FAVORITE_FILE="${FAVORITES_DIR}/favorites.txt"
 	
 	PLAYLIST_NAME="playlist.m3u8"
+	PLAYLIST_TMP="${SERVER_DIR}/${SERVER_NAME^}TV_br.m3u8"
 	PLAYLIST_ALL_IPTV="${SERVER_DIR}/${SERVER_NAME^}TV_br.m3u"
+	PLAYLIST_ALL_BACKUP="${PLAYLIST_ALL_IPTV}.bak"
+	PLAYLIST_ALL_DIFF="${PLAYLIST_ALL_IPTV}.txt"
 	PLAYLIST_LLS="${SERVER_DIR}/LLS_$(basename ${PLAYLIST_ALL_IPTV})"
 	PLAYLIST_ALL="${SERVER_DIR}/${PLAYLIST_NAME}"
 	PLAYLIST_LLS_TV="${LLS_DIR}/LLS_TV_br.m3u"
@@ -311,6 +323,7 @@ if [[ " ${SERVERS_NAME[*]} " =~ " ${1} " ]]; then
 	
 	. scripts/${SERVER_NAME}.sh
 	. scripts/logo.sh
+	. scripts/check.sh
 	
 	case "$2" in
 		download)
@@ -328,6 +341,9 @@ if [[ " ${SERVERS_NAME[*]} " =~ " ${1} " ]]; then
 		clean)
 			iptv_clean
 			;;
+		check)
+			check_backup
+			;;
 		update)
 			iptv_update
 			;;
@@ -337,7 +353,7 @@ if [[ " ${SERVERS_NAME[*]} " =~ " ${1} " ]]; then
 			${SERVER_NAME}_create
 			;;
 		*)
-			echo "Use: $0 {all|download|favorites|create|show|clean|update}"
+			echo "Use: $0 {all|download|favorites|create|show|clean|check|update}"
 			exit 1
 			;;
 	esac

@@ -11,16 +11,20 @@ meutedio_download()
 	
 	iptv_download
 	
+	cp -fv ${PLAYLIST_ALL_IPTV} ${PLAYLIST_TMP}
+	
+	cat ${PLAYLIST_TMP} | grep -A1 'group-title="Brasil: cinema' > ${PLAYLIST_ALL_IPTV}
+	
+	if [ ! -f ${PLAYLIST_ALL_BACKUP} ]; then
+		
+		cp -fv ${PLAYLIST_ALL_IPTV} ${PLAYLIST_ALL_BACKUP}
+		
+	fi
+	
 }
 
 meutedio_favorites()
 {
-	
-	PLAYLIST_TMP="${SERVER_DIR}/${SERVER_NAME^}TV_br.m3u8"
-	
-	cp -fv ${PLAYLIST_ALL_IPTV} ${PLAYLIST_TMP}
-	
-	cat ${PLAYLIST_TMP} | grep -A1 'group-title="Brasil: cinema' > ${PLAYLIST_ALL_IPTV}
 	
 	iptv_favorites
 	

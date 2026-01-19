@@ -38,6 +38,12 @@ pluto_download()
 	if [ ! -f ${FAVORITES_FILE} ]; then
 		
 		mv -v ${PLAYLIST_ALL} ${PLAYLIST_ALL_IPTV}
+		
+		if [ ! -f ${PLAYLIST_ALL_BACKUP} ]; then
+		
+			cp -fv ${PLAYLIST_ALL_IPTV} ${PLAYLIST_ALL_BACKUP}
+			
+		fi
 	
 	fi
 	
