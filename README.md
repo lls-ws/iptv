@@ -45,7 +45,7 @@ git clone https://github.com/lls-ws/iptv.git && cd iptv
 > - bash iptv.sh **`samsung`** download
 
 > [!IMPORTANT]
-> Change the plataform options for all commands below!
+> Change the plataform options for all commands below.
 
 #### Download Playlist
 ```sh
