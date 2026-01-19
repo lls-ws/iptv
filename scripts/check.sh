@@ -99,6 +99,8 @@ check_diff()
 	else
 	
 		echo "New channels not found!"
+		
+		rm -fv ${CHANNEL_NEW}
 	
 	fi
 
