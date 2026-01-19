@@ -1,71 +1,83 @@
 # IPTV
 Scripts to create personal IPTV files from Brazil free channels.
 
-Based on https://github.com/evoactivity/PlutoIPTV
+## Contents
+- [Playlist](#playlist)
+- [Resources](#resources)
+- [Download](#download-repository) 
+- [Commands](#commands)
+- [Extra Commands](#extra-commands)
+- [Radios Stations](#radios-stations)
 
-## Playists
-- PlutoTV: https://lls-ws.github.io/iptv/PlutoTV_br.m3u
-- Personal: https://lls-ws.github.io/iptv/LLS_TV_br.m3u
-- Personal PlutoTV:
-https://lls-ws.github.io/iptv/LLS_PlutoTV_br.m3u
+### Playlist
+- https://lls-ws.github.io/iptv/LLS_TV_br.m3u
 
-## Free Channels
-- [PlutoTV](#plutotv)
-- [SamsungTV](#samsungtv)
-- [RuntimeTV](#runtimetv)
-- [Extra](#extra)
+### Resources
+- https://github.com/evoactivity/PlutoIPTV
+- https://github.com/helenfernanda/gratis
+- https://www.apsattv.com/streams.html
 
-## Download repository
-#### Open terminal and paste these following commands:
+### Download Repository
 ```sh
 git clone https://github.com/lls-ws/iptv.git && cd iptv
 ```
 
-## PlutoTV
-  - [Install](#install-plutotv-dependencies)
-  - [Download](#download-plutotv-playlist)
-  - [Favorites](#edit-favorites-plutotv-channels)
-  - [Create](#create-favorites-plutotv-playlist)
-  - [Show](#show-plutotv-files)
-  - [Clean](#clean-plutotv-playlists)
+### Commands
+  - [Options](#plataform-options) 
+  - [Download](#download-playlist)
+  - [Favorites](#edit-favorites-channels)
+  - [Create](#create-favorites-playlist)
 
-#### Install PlutoTV Dependencies
+#### Plataform Options
+> [!NOTE]
+>  Replace the plataform name with one of this options:
+>  - movieark
+>  - meutedio
+>  - samsung
+>  - redeitv
+>  - pluto
+>  - soul
+>  - tcl
+>  - lg
+
+> [!TIP]
+> Example
+> - bash iptv.sh **`samsung`** download
+
+> [!IMPORTANT]
+> Change the plataform options for all commands below!
+
+#### Download Playlist
 ```sh
-bash iptv.sh pluto install
+bash iptv.sh movieark download
 ```
-#### Download PlutoTV Playlist
+#### Edit Favorites Channels
 ```sh
-bash iptv.sh pluto download
+bash iptv.sh movieark favorites
 ```
-#### Edit Favorites PlutoTV Channels
+#### Create Favorites Playlist
 ```sh
-bash iptv.sh pluto favorites
-```
-#### Create Favorites PlutoTV Playlist
-```sh
-bash iptv.sh pluto create
-```
-#### Show PlutoTV Files
-```sh
-bash iptv.sh pluto show
-```
-#### Clean PlutoTV Playlists
-```sh
-bash iptv.sh pluto clean
+bash iptv.sh movieark create
 ```
 
-## SamsungTV
-Under construction...
+### Extra Commands
+  - [Show](#show-favorites-files)
+  - [Check](#check-new-channels)
+  - [Clean](#clean-favorites-channels)
 
-## RuntimeTV
-Under construction...
+#### Show Favorites Files
+```sh
+bash iptv.sh movieark show
+```
+#### Check New Channels
+```sh
+bash iptv.sh movieark check
+```
+#### Clean Favorites Channels
+```sh
+bash iptv.sh movieark clean
+```
 
-## Extra
-#### Best Playlists
-- Free TV: https://github.com/Free-TV/IPTV
-- IPTV-org https://github.com/iptv-org/iptv
-
-#### Radio Playlists
-
+#### Radios Stations
 - 89FM: https://www.radios.com.br/play/playlist/31289/listen-radio.m3u
 - UturnRadio: https://www.uturnradio.com/media/classic_rock.m3u
