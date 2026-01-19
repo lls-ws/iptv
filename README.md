@@ -23,12 +23,12 @@ git clone https://github.com/lls-ws/iptv.git && cd iptv
 ```
 
 ### Commands
-  - [Options](#plataform-options) 
+  - [Options](#options) 
   - [Download](#download-playlist)
   - [Favorites](#edit-favorites-channels)
   - [Create](#create-favorites-playlist)
 
-#### Plataform Options
+#### Options
 > [!NOTE]
 >  Replace the plataform name with one of this options:
 >  - movieark
