@@ -1,5 +1,5 @@
 # IPTV
-Scripts to create personal IPTV files from Brazil free channels.
+Scripts to create personal IPTV files from Brazil [FAST](https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television) channels.
 
 ## Contents
 - [Playlist](#playlist)
