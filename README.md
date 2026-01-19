@@ -6,6 +6,7 @@ Scripts to create personal IPTV files from Brazil [FAST](https://en.wikipedia.or
 - [Resources](#resources)
 - [Download](#download-repository) 
 - [Commands](#commands)
+- [Super Command](#super-command)
 - [Extra Commands](#extra-commands)
 - [Radios Stations](#radios-stations)
 
@@ -58,6 +59,12 @@ bash iptv.sh movieark favorites
 #### Create Favorites Playlist
 ```sh
 bash iptv.sh movieark create
+```
+
+### Super Command
+Run after doing all commands above for all plataform options
+```sh
+bash iptv.sh lls create
 ```
 
 ### Extra Commands
