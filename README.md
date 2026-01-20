@@ -8,7 +8,7 @@ Scripts to create personal IPTV files from Brazil [FAST](https://en.wikipedia.or
 - [Commands](#commands)
 - [Super Command](#super-command)
 - [Extra Commands](#extra-commands)
-- [Radios Stations](#radios-stations)
+- [Radios Stations Link](#radios-stations)
 
 ### Playlist
 - https://lls-ws.github.io/iptv/LLS_TV_br.m3u
