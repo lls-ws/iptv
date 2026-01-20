@@ -1,5 +1,5 @@
 # IPTV
-Scripts to create personal IPTV files from Brazil [FAST](https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television) channels.
+Scripts to create personal IPTV files from Brazil [FASTs](https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television) Platforms.
 
 ## Contents
 - [Playlist](#playlist)
@@ -31,7 +31,7 @@ git clone https://github.com/lls-ws/iptv.git && cd iptv
 
 #### Options
 > [!NOTE]
->  Replace the plataform name with one of this options:
+>  Replace the platform name with one of this options:
 >  - movieark
 >  - meutedio
 >  - samsung
@@ -46,7 +46,7 @@ git clone https://github.com/lls-ws/iptv.git && cd iptv
 > - bash iptv.sh **`samsung`** download
 
 > [!IMPORTANT]
-> Change the plataform options for all commands below.
+> Change the platform options for all commands below.
 
 #### Download Playlist
 ```sh
