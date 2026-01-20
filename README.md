@@ -42,8 +42,9 @@ git clone https://github.com/lls-ws/iptv.git && cd iptv
 >  - lg
 
 > [!TIP]
-> Example
+> Examples:
 > - bash iptv.sh **`samsung`** download
+> - bash iptv.sh **`pluto`** download
 
 > [!IMPORTANT]
 > Change the platform options for all commands below.
@@ -62,7 +63,7 @@ bash iptv.sh movieark create
 ```
 
 ### Super Command
-Run after doing all commands above for all plataform options
+Run after doing all commands above for all platform options
 ```sh
 bash iptv.sh lls create
 ```
