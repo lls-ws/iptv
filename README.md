@@ -63,7 +63,7 @@ bash iptv.sh movieark create
 ```
 
 ### Super Command
-Run after doing all commands above for all platform options
+Run after doing all commands above for all platform options, this is join all platform playlists in one.
 ```sh
 bash iptv.sh lls create
 ```
