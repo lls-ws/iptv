@@ -1,5 +1,5 @@
 # IPTV
-Scripts to create personal IPTV files from Brazil [FASTs](https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television) Platforms.
+Scripts to create personal IPTV files from Brazil [FAST](https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television) Platforms.
 
 ## Contents
 - [Playlist](#playlist)
