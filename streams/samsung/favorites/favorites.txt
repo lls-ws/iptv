@@ -124,7 +124,7 @@
 #2558 Smithsonian Channel Pluto TV (BR)
 #2560 Revry (BR)
 #2560 Revry alt (BR)
-#2640 Grjingo Filmes de Faroeste (BR)
+Add#2640 Grjingo Filmes de Faroeste (BR)
 #2640 Grjngo Filmes de Faroeste (BR) alt
 #2645 Runtime Ação (BR)
 #2645 Runtime Ação alt (BR)
