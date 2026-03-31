@@ -35,6 +35,8 @@ https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/b1226ff17e92
 https://eae43398.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VENMLWJyX0V1cm9uZXdzUG9ydHVndWVzX0hMUw/playlist.m3u8
 #EXTINF:-1 group-title="Add" tvg-logo="https://s3minio.webativa.com.br/redeitv/top-mix-tv-canal-4-filmes.png",TOP MIX TV CANAL 4 FILMES
 https://video01.logicahost.com.br/topmixtvfilmes/topmixtvfilmes/playlist.m3u8
+#EXTINF:-1 group-title="Add",2640 Grjingo Filmes de Faroeste (BR)
+https://cc-4dvoxbmwicuqr.akamaized.net/playlist.m3u8
 #EXTINF:-1 group-title="Add" tvg-logo="https://d2mxb63djushzm.cloudfront.net/images/Sofa%20Digital/Adrenalina%20Pura%20TV/LG/APTV-Logo-%20400x200.png",2646 Adrenalina Pura TV (BR) (Substituto TCL)
 https://amg00740-sofa-amg00740c7-tcl-us-7126.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="pluto-tv-cine-sucessos" tvg-logo="http://images.pluto.tv/channels/5f120e94a5714d00074576a1/colorLogoPNG.png", Pluto TV Cine Sucessos
@@ -552,6 +554,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/69
 
 #EXTINF:-1 group-title="Add" tvg-id="Bradoky" tvg-logo="https://d14vd6r4ppsx57.cloudfront.net/media/brand/BRADOKY_-_logo_2_-_Transp_reduz_V3mcKdI.png",Bradoky
 https://video01.soultv.com.br/bradoky/bradoky/playlist.m3u8
+#EXTINF:-1 group-title="Add" tvg-id="CNNMoney" tvg-logo="https://d14vd6r4ppsx57.cloudfront.net/media/brand/cnn_money_vertical_COLOR_100x100px.png",CNN Money
+https://video03.logicahost.com.br/cnnmoney/cnnmoney/playlist.m3u8
 #EXTINF:-1 group-title="Add" tvg-logo="https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/logo.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png",1004 Record News (BR)
 https://rnw-rn-tcl-roku-syndication.otteravision.com/rnw/rn/rnw_rn.m3u8
 #EXTINF:-1 group-title="Add" tvg-logo="https://i.ytimg.com/vi/v6ux1Oty8EA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCuv65d0euYY4rebzVBsXcG246zIw",1006 Grjngo Brasil (BR)

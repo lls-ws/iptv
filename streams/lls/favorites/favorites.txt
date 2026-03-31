@@ -64,13 +64,14 @@ Romance#910 Spark TV Luz E Amor
 #Romance#Pluto TV Filmes Nacionais
 Romance#MyTime Movie Network | Brasil
 #
-# Notícias
-Notícias#10030 TV Jovem Pan News (BR)
-Notícias#132 CNN Brasil
-Notícias#130 SBT News
-Notícias#1004 Record News (BR)
-Notícias#134 Times Brasil licenciado exclusivo CNBC
-Notícias#Euronews Português
+# News
+News#10030 TV Jovem Pan News (BR)
+News#132 CNN Brasil
+News#CNN Money
+News#130 SBT News
+News#1004 Record News (BR)
+News#134 Times Brasil licenciado exclusivo CNBC
+News#Euronews Português
 #
 # Mistério
 #Mistério#Pluto TV Aliens
