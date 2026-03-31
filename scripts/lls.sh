@@ -134,7 +134,7 @@ remove_extra_names()
 	
 	sed -i '/^#/ s/LITE//g' ${PLAYLIST_LLS_TV}
 	
-	sed -i '/^#/ s/ TV//g' ${PLAYLIST_LLS_TV}
+	sed -i '/^#/ s/TV//g' ${PLAYLIST_LLS_TV}
 	
 	sed -i '/^#/ s/Pluto//g' ${PLAYLIST_LLS_TV}
 	
