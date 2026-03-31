@@ -70,8 +70,6 @@ News#132 CNN Brasil
 News#130 SBT News
 News#1004 Record News (BR)
 News#134 Times Brasil licenciado exclusivo CNBC
-News#Euronews Português
-#News#CNN Money
 #
 # Mistério
 #Mistério#Pluto TV Aliens
