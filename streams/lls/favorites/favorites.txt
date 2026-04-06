@@ -1,6 +1,13 @@
 # Change Line Order
 # Add Groups: Top Ação Suspense Família Terror Comédia Velhos Romance Notícias Mistério
 # Example: Suspense#Channel Name
+# News
+News#130 SBT News
+News#132 CNN Brasil
+News#10030 TV Jovem Pan News (BR)
+News#1004 Record News (BR)
+News#134 Times Brasil licenciado exclusivo CNBC
+#
 # Top
 Top#2646 Adrenalina Pura TV (BR) (Substituto TCL)
 Top#940 Sony One Cinema
@@ -63,13 +70,6 @@ Romance#910 Spark TV Luz E Amor
 Romance#MyTime Movie Network | Brasil
 #Romance#Pluto TV Cine Romance
 #Romance#Pluto TV Filmes Nacionais
-#
-# News
-News#10030 TV Jovem Pan News (BR)
-News#132 CNN Brasil
-News#130 SBT News
-News#1004 Record News (BR)
-News#134 Times Brasil licenciado exclusivo CNBC
 #
 # Mistério
 #Mistério#Pluto TV Aliens
