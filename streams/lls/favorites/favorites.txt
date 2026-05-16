@@ -20,11 +20,11 @@ Top#897 Xumo Filmes Grátis
 Top#Ação Total TV
 Top#Runtime Ação
 Top#901 Pluto TV Cine Sucessos
+Top#902 Pluto TV Filmes Ação
 #Top#Pluto TV Netmovies
 #Top#Bradoky
 #
 # Ação
-Ação#902 Pluto TV Filmes Ação
 #Ação#Pluto TV Filmes Aventura
 #Ação#Pluto TV Filmes de Luta
 #
@@ -37,6 +37,7 @@ Suspense#CinEspanto
 Suspense#DarkFlix HD | Soul TV Brasil
 Suspense#900 Dark Matter TV Brazil
 Suspense#Medo TV
+Suspense#905 Pluto TV Cine Terror
 #Suspense#Pluto TV Cine Crime
 #
 # Família
@@ -46,20 +47,17 @@ Família#908 Pluto TV Cine Clássicos
 Família#925 Filmelier TV Vida Real
 Família#Runtime Familia
 Família#Runtime Comédia
+Família#903 Pluto TV Cine Comédia
 Família#CineMonde | Soul TV Brasil
 Família#Soul Cine Clube | Brasil 
-Família#158 The Chosen
 Família#Grjngo
 #Família#1006 Grjngo Brasil (BR)
 #Família#Pluto TV Cine Inspiração
 #
 # Terror
-Terror#905 Pluto TV Cine Terror
 #Terror#Pluto TV Terror Trash
 #
 # Comédia
-Comédia#903 Pluto TV Cine Comédia
-Comédia#911 Pluto TV Cine Comédia Romântica
 #
 # Old
 #Old#Pluto TV Bang Bang
@@ -68,11 +66,13 @@ Comédia#911 Pluto TV Cine Comédia Romântica
 Romance#926 Filmelier TV Esperança
 Romance#Romance Channel
 Romance#Runtime Romance
+Romance#911 Pluto TV Cine Comédia Romântica
 Romance#927 Filmelier TV Paixão
 Romance#910 Spark TV Luz E Amor
 Romance#MyTime Movie Network | Brasil
 Romance#909 Pluto TV Cine Romance
 Romance#907 Pluto TV Filmes Nacionais
 #
-# Mistério
+# Séries
 #Mistério#Pluto TV Aliens
+Séries#158 The Chosen
