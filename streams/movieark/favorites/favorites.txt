@@ -1,6 +1,6 @@
 ## Insert group-title after the comment to add channel
 ## Example: Add#Channel Name
-#Grjngo
+Add#Grjngo
 Add#Runtime Ação
 Add#CinEspanto
 #Filmelier TV Paixão

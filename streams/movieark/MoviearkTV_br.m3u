@@ -1,6 +1,10 @@
 #EXTM3U
+#EXTINF:-1,Western Bound em Portugês
+https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/f5db557dc5ea4552bb723690a52f5aee/playlist.m3u8
 #EXTINF:-1,Grjngo
 https://d185afac7321401888ff3bb2fae7ccfc.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/TCL-br_GrjngoFilmesDeFaroeste/playlist.m3u8?ads.wurl_channel=1220&ads.wurl_name=GrjngoFilmesDeFaroeste&ads.coppa=0&ads.device_id={{DID}}&ads.dnt={{DNT}}&ads.us_privacy={{UsPrivacy}}&ads.gdpr={{Gdpr}}&ads.app_name={{appName}}&ads.app_bundle={{appPackage}}&ads.app_store_url={{AppStoreUrl}}&ads.ifa_type=%7BIFA_TYPE%7D&ads.custom=%7BCUSTOM%7D&ads.video_id=662b4f3e20e82808d84e0ae2&ads.consent={{GdprConsent}}
+#EXTINF:-1,Adoro Cinema
+https://1e876365f9bb431e8eb8e87808b6f245.mediatailor.us-east-1.amazonaws.com/v1/master/28cabd810dcffe6911c4fb534c3616fcb64e6894/Adoro_Cinema/index.m3u8
 #EXTINF:-1,Runtime Ação
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/00c452757e8745849f778dbcafb4e62d/playlist.m3u8
 #EXTINF:-1,CinEspanto
@@ -23,6 +27,8 @@ https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/151f0cac9fb2
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/3ada6fb1fe464ae5aa5b8b60ae285c73/playlist.m3u8
 #EXTINF:-1,Runtime Romance
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/daf56ed11a104537888487ebcc17c256/playlist.m3u8
+#EXTINF:-1,Jesus
+https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/693bd7bc2df9f443e2855c2d/bunnycontent_main.m3u8
 #EXTINF:-1,Filmelier TV Esperança
 https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/d8c82ef3962a4866bbff81317936d8cf/playlist.m3u8
 #EXTINF:-1,Filmelier TV Vida Real
@@ -41,6 +47,8 @@ https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/3f5318807c54
 https://3d51ba4c6dea4941b5e1ca10a471504c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/TCL-br_SonyOneCinema/playlist.m3u8?ads.wurl_channel=1585&ads.wurl_name=SonyOneCinema&ads.coppa=0&ads.device_id={{DID}}&ads.dnt={{DNT}}&ads.us_privacy={{UsPrivacy}}&ads.gdpr={{Gdpr}}&ads.app_name={{appName}}&ads.app_bundle={{appPackage}}&ads.app_store_url={{AppStoreUrl}}&ads.ifa_type=%7BIFA_TYPE%7D&ads.custom=%7BCUSTOM%7D&ads.video_id=6791ff38edf6320af87bf83e&ads.consent={{GdprConsent}}
 #EXTINF:-1,CINDIE LITE
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/b1226ff17e924e59803c486e434e96d4/playlist.m3u8
+#EXTINF:-1,Fatos Desconhecidos
+https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/a75bb3eed9b546a49f3978312da537ae/playlist.m3u8
 #EXTINF:-1,Os Arquivos do FBI
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68773c30e9e90f4e11b35d9e/bunnycontent_main.m3u8
 #EXTINF:-1,Assombrações
@@ -97,6 +105,8 @@ https://ffalconnow-us.api.leiniao.com/media-channel-api/ffalcon/RestreamLive/v1/
 https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/midRollAndPipAd/49587eb5acfb435cac34dcfc820bf564/playlist.m3u8
 #EXTINF:-1,BM&C NEWS
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/8887808ea3454f8ab4a529620ad0c3c2/playlist.m3u8
+#EXTINF:-1,SBT News
+https://amg00527-amg00527c5-amgplt0728.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00527-amg00527c5-amgplt0728/playlist.m3u8
 #EXTINF:-1,TV Notícias Agrícolas
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/57c5007f0b9f489399149e9e2b9d785b/playlist.m3u8
 #EXTINF:-1,Euronews Português
@@ -113,8 +123,6 @@ https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/66debf48589f
 https://amg00627-banijay-amg00627c35-tcl-us-4282.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanbr-tclus/playlist.m3u8
 #EXTINF:-1,Moranguinho
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/15d2d4a8f740492cb0f81cbb1feb5123/playlist.m3u8
-#EXTINF:-1,Kids TV - Nursery Rhymes and Baby Songs
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-ind/master_en.m3u8
 #EXTINF:-1,Teletubbies
 https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/84ee0b41f0a44f68917dcac50bf26d4b/playlist.m3u8
 #EXTINF:-1,Toon Goggles Brasil
@@ -125,6 +133,8 @@ https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/66d1621a454d
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10958
 #EXTINF:-1,El Reino Infantil
 https://amg17724-amg17724c3-tcl-br-10079.playouts.now.amagi.tv/playlist/amg17724-purodigitalandstudioslu-elreinoinfantilerpor-tclbr/playlist.m3u8
+#EXTINF:-1,Olá, Mundo
+https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/69ba63ecdd8e6418eb54997f/bunnycontent_main.m3u8
 #EXTINF:-1,CazéTV
 https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/5a9eaefac5584455afb01b50b1bcc619/playlist.m3u8
 #EXTINF:-1,GE TV
@@ -207,7 +217,7 @@ https://d9281d8aeed84fee8326422095eca182.mediatailor.us-east-1.amazonaws.com/v1/
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/6899bbb6e9e90f4e11c353a9/bunnycontent_main.m3u8?&content_custom_1_param=&w=1920&h=1080&cb={{CACHEBUSTER}}&ip={{IP}}&ua={{USER_AGENT}}&dnt={{DNT}}&pod_max_dur={{POD_MAX_DUR}}&pod_ad_slots={{POD_AD_SLOTS}}&app_bundle={{APP_BUNDLE}}&app_name={{APP_NAME}}&app_store_url={{APP_STORE_URL}}&min_dur={{MINIMUM_DURATION}}&max_dur={{MAXIMUM_DURATION}}&content_id={{CONTENT_ID}}&content_title={{CONTENT_TITLE}}&content_genre={{CONTENT_GENRE}}&content_categories={{CONTENT_CATEGORIES}}&rating={{RATING}}&channel_name={{CHANNEL_NAME}}&language={{LANGUAGE}}&network_name={{NETWORK_NAME}}&did={{DEVICE_ID}}&device_make={{DEVICE_MAKE}}&device_model={{DEVICE_MODEL}}&ifa_type={{IFA_TYPE}}&gdpr={{GDPR}}&us_privacy={{US_PRIVACY}}&schain={{SCHAIN}}&coppa={{COPPA}}&GdprConsent={{GdprConsent}}
 #EXTINF:-1,Naruto Shippuden
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/689ef4fae9e90f4e11c5b121/bunnycontent_main.m3u8?&content_custom_1_param=&w=1920&h=1080&cb={{CACHEBUSTER}}&ip={{IP}}&ua={{USER_AGENT}}&dnt={{DNT}}&pod_max_dur={{POD_MAX_DUR}}&pod_ad_slots={{POD_AD_SLOTS}}&app_bundle={{APP_BUNDLE}}&app_name={{APP_NAME}}&app_store_url={{APP_STORE_URL}}&min_dur={{MINIMUM_DURATION}}&max_dur={{MAXIMUM_DURATION}}&content_id={{CONTENT_ID}}&content_title={{CONTENT_TITLE}}&content_genre={{CONTENT_GENRE}}&content_categories={{CONTENT_CATEGORIES}}&rating={{RATING}}&channel_name={{CHANNEL_NAME}}&language={{LANGUAGE}}&network_name={{NETWORK_NAME}}&did={{DEVICE_ID}}&device_make={{DEVICE_MAKE}}&device_model={{DEVICE_MODEL}}&ifa_type={{IFA_TYPE}}&gdpr={{GDPR}}&us_privacy={{US_PRIVACY}}&schain={{SCHAIN}}&coppa={{COPPA}}&GdprConsent={{GdprConsent}}
-#EXTINF:-1,Naruto Next Generations
+#EXTINF:-1,Naruto Next Generation
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/6915392301003a3b85c3c67e/bunnycontent_main.m3u8?&content_custom_1_param=&w=1920&h=1080&cb={{CACHEBUSTER}}&ip={{IP}}&ua={{USER_AGENT}}&dnt={{DNT}}&pod_max_dur={{POD_MAX_DUR}}&pod_ad_slots={{POD_AD_SLOTS}}&app_bundle={{APP_BUNDLE}}&app_name={{APP_NAME}}&app_store_url={{APP_STORE_URL}}&min_dur={{MINIMUM_DURATION}}&max_dur={{MAXIMUM_DURATION}}&content_id={{CONTENT_ID}}&content_title={{CONTENT_TITLE}}&content_genre={{CONTENT_GENRE}}&content_categories={{CONTENT_CATEGORIES}}&rating={{RATING}}&channel_name={{CHANNEL_NAME}}&language={{LANGUAGE}}&network_name={{NETWORK_NAME}}&did={{DEVICE_ID}}&device_make={{DEVICE_MAKE}}&device_model={{DEVICE_MODEL}}&ifa_type={{IFA_TYPE}}&gdpr={{GDPR}}&us_privacy={{US_PRIVACY}}&schain={{SCHAIN}}&coppa={{COPPA}}&GdprConsent={{GdprConsent}}
 #EXTINF:-1,Captain Tsubasa
 https://ffalconnow.api.leiniao.com/media-channel-api/ffalconLive/v1/68a42e4fe9e90f4e11c7eac2/bunnycontent_main.m3u8?&content_custom_1_param=&w=1920&h=1080&cb={{CACHEBUSTER}}&ip={{IP}}&ua={{USER_AGENT}}&dnt={{DNT}}&pod_max_dur={{POD_MAX_DUR}}&pod_ad_slots={{POD_AD_SLOTS}}&app_bundle={{APP_BUNDLE}}&app_name={{APP_NAME}}&app_store_url={{APP_STORE_URL}}&min_dur={{MINIMUM_DURATION}}&max_dur={{MAXIMUM_DURATION}}&content_id={{CONTENT_ID}}&content_title={{CONTENT_TITLE}}&content_genre={{CONTENT_GENRE}}&content_categories={{CONTENT_CATEGORIES}}&rating={{RATING}}&channel_name={{CHANNEL_NAME}}&language={{LANGUAGE}}&network_name={{NETWORK_NAME}}&did={{DEVICE_ID}}&device_make={{DEVICE_MAKE}}&device_model={{DEVICE_MODEL}}&ifa_type={{IFA_TYPE}}&gdpr={{GDPR}}&us_privacy={{US_PRIVACY}}&schain={{SCHAIN}}&coppa={{COPPA}}&GdprConsent={{GdprConsent}}
@@ -249,11 +259,11 @@ https://amg00627-banijay-amg00627c54-tcl-br-10605.playouts.now.amagi.tv/playlist
 https://dad6889f7751402bb70007a5878f0aaf.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/TCL-br_SonyOneSharkTankBrasil/playlist.m3u8
 #EXTINF:-1,Em Nome do Penhor
 https://amg00627-banijay-amg00627c47-tcl-us-8086.playouts.now.amagi.tv/playlist/amg00627-banijayfast-hardcorepawnbr-tclus/playlist.m3u8
-#EXTINF:-1,NOW 80s
+#EXTINF:-1,That's 80s
 https://amg01076-lightning-amg01076c2-tcl-us-2470.playouts.now.amagi.tv/playlist/amg01076-lightning-now80s-tclus/playlist.m3u8
 #EXTINF:-1,NOW 70s
 https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/pipAd/f128243bea1c4b46b4cd29ceca92d2b7/playlist.m3u8
-#EXTINF:-1,NOW ROCK
+#EXTINF:-1,That's ROCK
 https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/pipAd/520efa73c0f6481aa2bf92435fa0035d/playlist.m3u8
 #EXTINF:-1,Stingray Easy Listening
 https://api-ott-adnet-oan.ottera.tv/loggingmediaurlpassthrough/a.m3u8?version=12.5&id=34&platform=roku&partner=tcl_roku_syndication&language=any&avod=1&app_name={{appName}}&app_bundle={{appPackage}}&device_width={{playerWidth}}&device_height={{playerHeight}}&ip={{ipAddr}}&tld={{AppDomain}}&content_cat={{AppCat}}&app_version={{AppVersion}}&app_store_url={{AppStoreUrl}}&ua={{UserAgent}}&did={{DID}}&dnt={{DNT}}&coppa={{Coppa}}&us_privacy={{UsPrivacy}}&gdpr={{Gdpr}}&cb={{cb}}&device_make={{DeviceMake}}&device_model={{DeviceModel}}&device_os_version={{operatingSystem}}&livestream={{LiveStream}}&custom_param_0=&custom_param_1=tablet&custom_param_2=&custom_param_3=&custom_param_4=tcl_roku_syndication&custom_param_5=roku&GdprConsent={{GdprConsent}}

@@ -6,28 +6,34 @@
 Add#130 SBT News
 Add#132 CNN Brasil
 #133 CNN MONEY
-Add#134 Times Brasil licenciado exclusivo CNBC
 #137 TIME
 #138 Pluto TV Record News
 #140 Euronews Português
 #141 USA TODAY News
-#142 CBS News
+#142 CBS News 24/7
+Add#143 Metropoles
 #144 Pluto TV Canal UOL
 #150 New Brasil
+#151 Terraviva
 #152 Canal Rural
 #153 Brintv
 #155 TV Aparecida
+Add#158 The Chosen
 #159 Malhacao
 #160 The Walking Dead by AMC
-#161 SONY ONE EMOÇÕES
+#161 Sony One Emoções
+#162 FilmRise Séries Gratuitas
+#163 Z Nation Brazil
 #164 Misty
 #165 ROMCOM K-Drama
 #166 PlayTV
 #191 Porta TV
 #192 DiaTV
+#193 Podpah TV
 #194 TV Flow
 #195 Manual do Mundo
 #198 Caras TV
+#205 IA Channel
 #206 Canal Like+
 #230 Receitas FAST
 #231 Sabor&Arte 2
@@ -36,6 +42,7 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #237 NEW KFOOD
 #240 TRAVEL PLUS
 #243 FashionTV
+#244 WhE Play
 #245 This Old House
 #246 GoUSA TV
 #247 Trace Sport Stars
@@ -52,8 +59,6 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #307 Pluto TV Natureza
 #310 Smithsonian Channel Pluto TV
 #313 WedoAmorPielSalvaje
-#314 Tu Cine
-#315 FreeTV Drama
 #351 Sony One Shark Tank Brasil
 #352 MasterChef Brasil
 #355 Pluto TV Negócio Fechado
@@ -61,6 +66,7 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #358 Pluto TV Animais
 #359 Pluto TV Vida Real
 #360 Pluto TV História
+#379 Fatos Desconhecidos
 #380 Pluto TV Investigação
 #381 Os Arquivos do FBI
 #382 Assombrações
@@ -73,6 +79,7 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #411 Pluto TV Retrô
 #412 Detetives Médicos
 #420 Weekly Idol
+#421 SMTOWN
 #520 Pluto TV KFOOD
 #521 PBS Digital Studios
 #522 Gusto TV
@@ -82,15 +89,13 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #526 Newsmax2
 #527 Bloomberg Originals
 #528 SPEEDVISION
-#530 Chiquilines
-#531 FreeTV Saber Más
+#531 Highway To Heaven Brazil
 #532 O Homem que veio do Céu
 #533 Pluto TV Turbo
 #534 BET Pluto TV
 #535 Pluto TV Minha Obsessão Favorita
 #537 NEW KPOP
 #538 This Is Happening
-#539 Television Concientes
 #540 Powernation
 #541 K-STAR GOLF
 #542 Refresh my Soul CBS
@@ -98,12 +103,12 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #545 Motorvision
 #600 DPA
 #602 Turma Da Monica
-#605 Dove
+#604 El Reino Infantil POR
+#605 Dove Channel
 #606 Super Onze
 #607 Babyfirst
 #608 Pluto TV Junior
 #609 Nick Jr. Club
-#610 O Reino Infantil
 #611 Pluto TV Kids
 #612 Bob Esponja Calça Quadrada
 #613 Nickelodeon Clássico
@@ -121,7 +126,8 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #630 Nickelodeon Teen
 #631 Kenan & Kel
 #632 Nickelodeon iCarly
-#650 Pluto TV Gaming por Ubisoft
+#650 UBISOFT TV Brasil
+#651 GG Good Game
 #652 Hunter x Hunter
 #654 Pluto TV Anime
 #655 Pluto TV Anime Ação
@@ -129,11 +135,7 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #657 Death Note
 #658 Tokusato
 #660 Boruto: Naruto Next Generations
-#665 Anime Onegai Drama
-#666 Anime Onegai Comedy
-#667 Anime Onegai SCI-FI
-#668 Anime Onegai Action
-#669 Anime Onegai Sports
+#661 SATO+
 #800 GE TV
 #801 NSports
 #802 Desimpedidos
@@ -146,16 +148,15 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #819 K-Baseball TV
 #820 FitDance
 #821 PFL MMA
+#822 SFT Combat
 #824 World Billiards TV
 #825 Billiard TV
-#826 WaypointTV
+#826 Waypoint TV
 #827 Nitro Circus
 #829 GLORY Kickboxing
 #837 YG TV
 #838 Mubeat
 #839 TRACE Brasil
-#840 FreeTV Banda
-#841 FreeTV Hits
 #843 MTV Biggest Pop
 #844 Qwest TV
 #845 Show Champion
@@ -175,31 +176,28 @@ Add#134 Times Brasil licenciado exclusivo CNBC
 #863 ZenLIFE by Stingray
 #883 So I Married The Anti-Fan
 #884 My Secret Romance
-#885 Boys Over Flowers
+#885 Mi identificación es Belleza de Gangnam
 #886 Uncontrollably Fond
 #887 Where Stars Land
-#889 FreeTV Acción
-#890 FreeTV Sureño
-#891 FreeTV Familia
-#894 FreeTV Terror
-#895 FreeTV Live
+#890 K-Vibe
 Add#897 Xumo Filmes Grátis
 #898 NEW KMOVIES
 #899 American Classics
 Add#900 Dark Matter TV Brazil
-#901 Pluto TV Cine Sucessos
-#902 Pluto TV Filmes Ação
-#903 Pluto TV Cine Comédia
-#904 Pluto TV Cine Drama
-#905 Pluto TV Cine Terror
-#906 Filmes Suspense
-#907 Pluto TV Filmes Nacionais
-#908 Pluto TV Cine Clássicos
-#909 Pluto TV Cine Romance
+Add#901 Pluto TV Cine Sucessos
+Add#902 Pluto TV Filmes Ação
+Add#903 Pluto TV Cine Comédia
+Add#904 Pluto TV Cine Drama
+Add#905 Pluto TV Cine Terror
+Add#906 Filmes Suspense
+Add#907 Pluto TV Filmes Nacionais
+Add#908 Pluto TV Cine Clássicos
+Add#909 Pluto TV Cine Romance
 Add#910 Spark TV Luz E Amor
-#911 Pluto TV Cine Comédia Romântica
-#912 Pluto TV Ficção Científica
-#913 Pluto TV Cine Família
+Add#911 Pluto TV Cine Comédia Romântica
+Add#912 Pluto TV Ficção Científica
+Add#913 Pluto TV Cine Família
+#914 FREETV DRAMA BRA
 #915 Runtime
 #916 CinEspanto
 #917 Runtime Crime
@@ -207,10 +205,12 @@ Add#910 Spark TV Luz E Amor
 #919 Runtime Familia
 #920 Runtime Comédia
 #921 Runtime Ação
+#922 FREETV CRIME BRA
+#924 Cindie TV
 Add#925 Filmelier TV Vida Real
-Add#926 Esperanca
+Add#926 Filmelier TV Esperança
 Add#927 Filmelier TV Paixão
-#928 Filmelier Portuguese
-#930 Adrenalina Pura TV POR
+#928 Filmelier TV
+#930 Adrenalina Pura TV
 Add#931 Adrenalina Pura TV Halloween
 Add#940 Sony One Cinema
